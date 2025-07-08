@@ -1,0 +1,14 @@
+cmake - build - debug/
+.idea/
+*.iml
+
+# 自动处理文本文件的换行符
+* text=auto
+
+# 确保特定文件类型始终使用LF
+*.h text eol=lf
+*.cpp text eol=lf
+*.txt text eol=lf
+
+# 忽略构建目录中的文件
+cmake-build-debug/* -text
