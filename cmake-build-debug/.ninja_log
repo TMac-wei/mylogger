@@ -1,0 +1,7 @@
+# ninja log v6
+2	220	7737510286541646	CMakeFiles/mylogger.dir/main.cpp.obj.ddi	69da85ecdbb6bbc0
+221	305	7737510289535643	CMakeFiles/mylogger.dir/CXX.dd	ccb817bf9b489dfe
+310	791	7737510289620872	CMakeFiles/mylogger.dir/main.cpp.obj	ebfc55e43879cd33
+221	305	7737510289535643	D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/mylogger.dir/CXXModules.json	ccb817bf9b489dfe
+221	305	7737510289535643	CMakeFiles/mylogger.dir/main.cpp.obj.modmap	ccb817bf9b489dfe
+793	1037	7737510294454061	mylogger.exe	27d8f9d1c142e74a

@@ -1,0 +1,3 @@
+D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/mylogger.dir
+D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/rebuild_cache.dir

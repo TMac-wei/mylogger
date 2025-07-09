@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "D:/c++_projects/mylogger/cmake-build-debug",
+	"dir-cur-src" : "D:/c++_projects/mylogger",
+	"dir-top-bld" : "D:/c++_projects/mylogger/cmake-build-debug",
+	"dir-top-src" : "D:/c++_projects/mylogger",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/mylogger.dir"
+}
