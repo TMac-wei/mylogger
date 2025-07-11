@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: mylogger
+# Project: myLogger
 # Configurations: Debug
 # =============================================================================
 
@@ -47,99 +47,14 @@ cmake_ninja_workdir = D$:/c++_projects/mylogger/cmake-build-debug/
 #############################################
 # Order-only phony target for mylogger
 
-build cmake_object_order_depends_target_mylogger: phony || .
+build cmake_object_order_depends_target_mylogger: phony || cmake_object_order_depends_target_mylogger_lib
 
-build CMakeFiles/mylogger.dir/main.cpp.obj.ddi: CXX_SCAN__mylogger_Debug D$:/c++_projects/mylogger/main.cpp || cmake_object_order_depends_target_mylogger
-  DEP_FILE = CMakeFiles\mylogger.dir\main.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\mylogger.dir\main.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\mylogger.dir\main.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\mylogger.dir\main.cpp.obj.ddi.i
-
-build CMakeFiles/mylogger.dir/main.cpp.obj: CXX_COMPILER__mylogger_scanned_Debug D$:/c++_projects/mylogger/main.cpp | CMakeFiles/mylogger.dir/main.cpp.obj.modmap || cmake_object_order_depends_target_mylogger CMakeFiles/mylogger.dir/CXX.dd
+build CMakeFiles/mylogger.dir/main.cpp.obj: CXX_COMPILER__mylogger_unscanned_Debug D$:/c++_projects/mylogger/main.cpp || cmake_object_order_depends_target_mylogger
   DEP_FILE = CMakeFiles\mylogger.dir\main.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\mylogger.dir\main.cpp.obj.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
   OBJECT_DIR = CMakeFiles\mylogger.dir
   OBJECT_FILE_DIR = CMakeFiles\mylogger.dir
-  dyndep = CMakeFiles/mylogger.dir/CXX.dd
-
-build CMakeFiles/mylogger.dir/mylogger/mmap/mmap_aux.cc.obj.ddi: CXX_SCAN__mylogger_Debug D$:/c++_projects/mylogger/mylogger/mmap/mmap_aux.cc || cmake_object_order_depends_target_mylogger
-  DEP_FILE = CMakeFiles\mylogger.dir\mylogger\mmap\mmap_aux.cc.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\mylogger.dir\mylogger\mmap\mmap_aux.cc.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\mylogger.dir\mylogger\mmap\mmap_aux.cc.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\mylogger.dir\mylogger\mmap\mmap_aux.cc.obj.ddi.i
-
-build CMakeFiles/mylogger.dir/mylogger/mmap/mmap_aux.cc.obj: CXX_COMPILER__mylogger_scanned_Debug D$:/c++_projects/mylogger/mylogger/mmap/mmap_aux.cc | CMakeFiles/mylogger.dir/mylogger/mmap/mmap_aux.cc.obj.modmap || cmake_object_order_depends_target_mylogger CMakeFiles/mylogger.dir/CXX.dd
-  DEP_FILE = CMakeFiles\mylogger.dir\mylogger\mmap\mmap_aux.cc.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\mylogger.dir\mylogger\mmap\mmap_aux.cc.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\mylogger.dir
-  OBJECT_FILE_DIR = CMakeFiles\mylogger.dir\mylogger\mmap
-  dyndep = CMakeFiles/mylogger.dir/CXX.dd
-
-build CMakeFiles/mylogger.dir/mylogger/utils/file_util.cpp.obj.ddi: CXX_SCAN__mylogger_Debug D$:/c++_projects/mylogger/mylogger/utils/file_util.cpp || cmake_object_order_depends_target_mylogger
-  DEP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\file_util.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\mylogger.dir\mylogger\utils\file_util.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\mylogger.dir\mylogger\utils\file_util.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\mylogger.dir\mylogger\utils\file_util.cpp.obj.ddi.i
-
-build CMakeFiles/mylogger.dir/mylogger/utils/file_util.cpp.obj: CXX_COMPILER__mylogger_scanned_Debug D$:/c++_projects/mylogger/mylogger/utils/file_util.cpp | CMakeFiles/mylogger.dir/mylogger/utils/file_util.cpp.obj.modmap || cmake_object_order_depends_target_mylogger CMakeFiles/mylogger.dir/CXX.dd
-  DEP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\file_util.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\file_util.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\mylogger.dir
-  OBJECT_FILE_DIR = CMakeFiles\mylogger.dir\mylogger\utils
-  dyndep = CMakeFiles/mylogger.dir/CXX.dd
-
-build CMakeFiles/mylogger.dir/mylogger/utils/sys_util.cpp.obj.ddi: CXX_SCAN__mylogger_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util.cpp || cmake_object_order_depends_target_mylogger
-  DEP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util.cpp.obj.ddi.i
-
-build CMakeFiles/mylogger.dir/mylogger/utils/sys_util.cpp.obj: CXX_COMPILER__mylogger_scanned_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util.cpp | CMakeFiles/mylogger.dir/mylogger/utils/sys_util.cpp.obj.modmap || cmake_object_order_depends_target_mylogger CMakeFiles/mylogger.dir/CXX.dd
-  DEP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\mylogger.dir
-  OBJECT_FILE_DIR = CMakeFiles\mylogger.dir\mylogger\utils
-  dyndep = CMakeFiles/mylogger.dir/CXX.dd
-
-build CMakeFiles/mylogger.dir/mylogger/utils/sys_util_linux.cpp.obj.ddi: CXX_SCAN__mylogger_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util_linux.cpp || cmake_object_order_depends_target_mylogger
-  DEP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_linux.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_linux.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_linux.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_linux.cpp.obj.ddi.i
-
-build CMakeFiles/mylogger.dir/mylogger/utils/sys_util_linux.cpp.obj: CXX_COMPILER__mylogger_scanned_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util_linux.cpp | CMakeFiles/mylogger.dir/mylogger/utils/sys_util_linux.cpp.obj.modmap || cmake_object_order_depends_target_mylogger CMakeFiles/mylogger.dir/CXX.dd
-  DEP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_linux.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_linux.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\mylogger.dir
-  OBJECT_FILE_DIR = CMakeFiles\mylogger.dir\mylogger\utils
-  dyndep = CMakeFiles/mylogger.dir/CXX.dd
-
-build CMakeFiles/mylogger.dir/mylogger/utils/sys_util_win.cpp.obj.ddi: CXX_SCAN__mylogger_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util_win.cpp || cmake_object_order_depends_target_mylogger
-  DEP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_win.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_win.cpp.obj.ddi
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_win.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_win.cpp.obj.ddi.i
-
-build CMakeFiles/mylogger.dir/mylogger/utils/sys_util_win.cpp.obj: CXX_COMPILER__mylogger_scanned_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util_win.cpp | CMakeFiles/mylogger.dir/mylogger/utils/sys_util_win.cpp.obj.modmap || cmake_object_order_depends_target_mylogger CMakeFiles/mylogger.dir/CXX.dd
-  DEP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_win.cpp.obj.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\mylogger.dir\mylogger\utils\sys_util_win.cpp.obj.modmap
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\mylogger.dir
-  OBJECT_FILE_DIR = CMakeFiles\mylogger.dir\mylogger\utils
-  dyndep = CMakeFiles/mylogger.dir/CXX.dd
-
-build CMakeFiles/mylogger.dir/CXX.dd | D$:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/mylogger.dir/CXXModules.json CMakeFiles/mylogger.dir/main.cpp.obj.modmap CMakeFiles/mylogger.dir/mylogger/mmap/mmap_aux.cc.obj.modmap CMakeFiles/mylogger.dir/mylogger/utils/file_util.cpp.obj.modmap CMakeFiles/mylogger.dir/mylogger/utils/sys_util.cpp.obj.modmap CMakeFiles/mylogger.dir/mylogger/utils/sys_util_linux.cpp.obj.modmap CMakeFiles/mylogger.dir/mylogger/utils/sys_util_win.cpp.obj.modmap: CXX_DYNDEP__mylogger_Debug CMakeFiles/mylogger.dir/main.cpp.obj.ddi CMakeFiles/mylogger.dir/mylogger/mmap/mmap_aux.cc.obj.ddi CMakeFiles/mylogger.dir/mylogger/utils/file_util.cpp.obj.ddi CMakeFiles/mylogger.dir/mylogger/utils/sys_util.cpp.obj.ddi CMakeFiles/mylogger.dir/mylogger/utils/sys_util_linux.cpp.obj.ddi CMakeFiles/mylogger.dir/mylogger/utils/sys_util_win.cpp.obj.ddi | D$:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/mylogger.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -149,15 +64,27 @@ build CMakeFiles/mylogger.dir/CXX.dd | D$:/c++_projects/mylogger/cmake-build-deb
 #############################################
 # Link the executable mylogger.exe
 
-build mylogger.exe: CXX_EXECUTABLE_LINKER__mylogger_Debug CMakeFiles/mylogger.dir/main.cpp.obj CMakeFiles/mylogger.dir/mylogger/mmap/mmap_aux.cc.obj CMakeFiles/mylogger.dir/mylogger/utils/file_util.cpp.obj CMakeFiles/mylogger.dir/mylogger/utils/sys_util.cpp.obj CMakeFiles/mylogger.dir/mylogger/utils/sys_util_linux.cpp.obj CMakeFiles/mylogger.dir/mylogger/utils/sys_util_win.cpp.obj
+build mylogger.exe: CXX_EXECUTABLE_LINKER__mylogger_Debug CMakeFiles/mylogger.dir/main.cpp.obj | mylogger/libmylogger_lib.a || mylogger/libmylogger_lib.a
   FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = mylogger/libmylogger_lib.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\mylogger.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
   TARGET_FILE = mylogger.exe
   TARGET_IMPLIB = libmylogger.dll.a
   TARGET_PDB = mylogger.exe.dbg
+
+
+#############################################
+# Utility command for test
+
+build CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build test: phony CMakeFiles/test.util
 
 
 #############################################
@@ -182,10 +109,715 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/c++_projects/mylogger/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target mylogger_lib
+
+
+#############################################
+# Order-only phony target for mylogger_lib
+
+build cmake_object_order_depends_target_mylogger_lib: phony || .
+
+build mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/mmap/mmap_aux.cc || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\mmap\mmap_aux.cc.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\mmap
+
+build mylogger/CMakeFiles/mylogger_lib.dir/utils/file_util.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/utils/file_util.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\utils\file_util.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\utils
+
+build mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\utils\sys_util.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\utils
+
+build mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util_win.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util_win.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\utils\sys_util_win.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\utils
+
+build mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/mmap/mmap_win.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\mmap\mmap_win.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\mmap
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target mylogger_lib
+
+
+#############################################
+# Link the static library mylogger\libmylogger_lib.a
+
+build mylogger/libmylogger_lib.a: CXX_STATIC_LIBRARY_LINKER__mylogger_lib_Debug mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/file_util.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util_win.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = mylogger\libmylogger_lib.a
+  TARGET_PDB = mylogger_lib.a.dbg
+
+
+#############################################
+# Utility command for test
+
+build mylogger/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build mylogger/test: phony mylogger/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build mylogger/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build mylogger/edit_cache: phony mylogger/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build mylogger/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\c++_projects\mylogger -BD:\c++_projects\mylogger\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build mylogger/rebuild_cache: phony mylogger/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build mylogger/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build mylogger/CMakeFiles/install.util: CUSTOM_COMMAND mylogger/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build mylogger/install: phony mylogger/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build mylogger/CMakeFiles/install/local.util: CUSTOM_COMMAND mylogger/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build mylogger/install/local: phony mylogger/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build mylogger/CMakeFiles/install/strip.util: CUSTOM_COMMAND mylogger/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build mylogger/install/strip: phony mylogger/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/c++_projects/mylogger/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for test
+
+build mylogger/third_party/googletest/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/test: phony mylogger/third_party/googletest/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build mylogger/third_party/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build mylogger/third_party/googletest/edit_cache: phony mylogger/third_party/googletest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build mylogger/third_party/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\c++_projects\mylogger -BD:\c++_projects\mylogger\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/rebuild_cache: phony mylogger/third_party/googletest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build mylogger/third_party/googletest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build mylogger/third_party/googletest/CMakeFiles/install.util: CUSTOM_COMMAND mylogger/third_party/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/install: phony mylogger/third_party/googletest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build mylogger/third_party/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND mylogger/third_party/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/install/local: phony mylogger/third_party/googletest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build mylogger/third_party/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND mylogger/third_party/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/install/strip: phony mylogger/third_party/googletest/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/c++_projects/mylogger/mylogger/third_party/googletest/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Order-only phony target for gmock
+
+build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
+
+build mylogger/third_party/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_unscanned_Debug D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
+  DEP_FILE = mylogger\third_party\googletest\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/include -ID:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = mylogger\third_party\googletest\googlemock\CMakeFiles\gmock.dir
+  OBJECT_FILE_DIR = mylogger\third_party\googletest\googlemock\CMakeFiles\gmock.dir\src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock
+
+
+#############################################
+# Link the static library lib\libgmock.a
+
+build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug mylogger/third_party/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj || lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = mylogger\third_party\googletest\googlemock\CMakeFiles\gmock.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lib\libgmock.a
+  TARGET_PDB = gmock.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Order-only phony target for gmock_main
+
+build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
+
+build mylogger/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_unscanned_Debug D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
+  DEP_FILE = mylogger\third_party\googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = mylogger\third_party\googletest\googlemock\CMakeFiles\gmock_main.dir
+  OBJECT_FILE_DIR = mylogger\third_party\googletest\googlemock\CMakeFiles\gmock_main.dir\src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gmock_main
+
+
+#############################################
+# Link the static library lib\libgmock_main.a
+
+build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug mylogger/third_party/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj || lib/libgmock.a lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = mylogger\third_party\googletest\googlemock\CMakeFiles\gmock_main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lib\libgmock_main.a
+  TARGET_PDB = gmock_main.a.dbg
+
+
+#############################################
+# Utility command for test
+
+build mylogger/third_party/googletest/googlemock/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googlemock && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/googlemock/test: phony mylogger/third_party/googletest/googlemock/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build mylogger/third_party/googletest/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googlemock && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build mylogger/third_party/googletest/googlemock/edit_cache: phony mylogger/third_party/googletest/googlemock/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build mylogger/third_party/googletest/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googlemock && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\c++_projects\mylogger -BD:\c++_projects\mylogger\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/googlemock/rebuild_cache: phony mylogger/third_party/googletest/googlemock/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build mylogger/third_party/googletest/googlemock/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build mylogger/third_party/googletest/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND mylogger/third_party/googletest/googlemock/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googlemock && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/googlemock/install: phony mylogger/third_party/googletest/googlemock/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build mylogger/third_party/googletest/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND mylogger/third_party/googletest/googlemock/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googlemock && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/googlemock/install/local: phony mylogger/third_party/googletest/googlemock/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build mylogger/third_party/googletest/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND mylogger/third_party/googletest/googlemock/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googlemock && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/googlemock/install/strip: phony mylogger/third_party/googletest/googlemock/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Order-only phony target for gtest
+
+build cmake_object_order_depends_target_gtest: phony || .
+
+build mylogger/third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_unscanned_Debug D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
+  DEP_FILE = mylogger\third_party\googletest\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = mylogger\third_party\googletest\googletest\CMakeFiles\gtest.dir
+  OBJECT_FILE_DIR = mylogger\third_party\googletest\googletest\CMakeFiles\gtest.dir\src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest
+
+
+#############################################
+# Link the static library lib\libgtest.a
+
+build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug mylogger/third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = mylogger\third_party\googletest\googletest\CMakeFiles\gtest.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lib\libgtest.a
+  TARGET_PDB = gtest.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Order-only phony target for gtest_main
+
+build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
+
+build mylogger/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_unscanned_Debug D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
+  DEP_FILE = mylogger\third_party\googletest\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
+  FLAGS = -g -std=c++20 -fdiagnostics-color=always -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers
+  INCLUDES = -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = mylogger\third_party\googletest\googletest\CMakeFiles\gtest_main.dir
+  OBJECT_FILE_DIR = mylogger\third_party\googletest\googletest\CMakeFiles\gtest_main.dir\src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target gtest_main
+
+
+#############################################
+# Link the static library lib\libgtest_main.a
+
+build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug mylogger/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj || lib/libgtest.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = mylogger\third_party\googletest\googletest\CMakeFiles\gtest_main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lib\libgtest_main.a
+  TARGET_PDB = gtest_main.a.dbg
+
+
+#############################################
+# Utility command for test
+
+build mylogger/third_party/googletest/googletest/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/googletest/test: phony mylogger/third_party/googletest/googletest/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build mylogger/third_party/googletest/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build mylogger/third_party/googletest/googletest/edit_cache: phony mylogger/third_party/googletest/googletest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build mylogger/third_party/googletest/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\c++_projects\mylogger -BD:\c++_projects\mylogger\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/googletest/rebuild_cache: phony mylogger/third_party/googletest/googletest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build mylogger/third_party/googletest/googletest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build mylogger/third_party/googletest/googletest/CMakeFiles/install.util: CUSTOM_COMMAND mylogger/third_party/googletest/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/googletest/install: phony mylogger/third_party/googletest/googletest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build mylogger/third_party/googletest/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND mylogger/third_party/googletest/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/googletest/install/local: phony mylogger/third_party/googletest/googletest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build mylogger/third_party/googletest/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND mylogger/third_party/googletest/googletest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger\third_party\googletest\googletest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build mylogger/third_party/googletest/googletest/install/strip: phony mylogger/third_party/googletest/googletest/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/c++_projects/mylogger/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target google_test
+
+
+#############################################
+# Order-only phony target for google_test
+
+build cmake_object_order_depends_target_google_test: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main cmake_object_order_depends_target_mylogger_lib
+
+build GoogleTest/CMakeFiles/google_test.dir/defer_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/defer_test.cpp || cmake_object_order_depends_target_google_test
+  DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\defer_test.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
+  OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
+
+build GoogleTest/CMakeFiles/google_test.dir/space_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/space_test.cpp || cmake_object_order_depends_target_google_test
+  DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\space_test.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
+  OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target google_test
+
+
+#############################################
+# Link the executable GoogleTest\google_test.exe
+
+build GoogleTest/google_test.exe: CXX_EXECUTABLE_LINKER__google_test_Debug GoogleTest/CMakeFiles/google_test.dir/defer_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/space_test.cpp.obj | mylogger/libmylogger_lib.a lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a mylogger/libmylogger_lib.a
+  FLAGS = -g
+  LINK_LIBRARIES = mylogger/libmylogger_lib.a  lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = GoogleTest\google_test.exe
+  TARGET_IMPLIB = GoogleTest\libgoogle_test.dll.a
+  TARGET_PDB = google_test.exe.dbg
+
+
+#############################################
+# Utility command for test
+
+build GoogleTest/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\GoogleTest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build GoogleTest/test: phony GoogleTest/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build GoogleTest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\GoogleTest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build GoogleTest/edit_cache: phony GoogleTest/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build GoogleTest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\GoogleTest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\c++_projects\mylogger -BD:\c++_projects\mylogger\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build GoogleTest/rebuild_cache: phony GoogleTest/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build GoogleTest/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build GoogleTest/CMakeFiles/install.util: CUSTOM_COMMAND GoogleTest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\GoogleTest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build GoogleTest/install: phony GoogleTest/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build GoogleTest/CMakeFiles/install/local.util: CUSTOM_COMMAND GoogleTest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\GoogleTest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build GoogleTest/install/local: phony GoogleTest/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build GoogleTest/CMakeFiles/install/strip.util: CUSTOM_COMMAND GoogleTest/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\GoogleTest && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build GoogleTest/install/strip: phony GoogleTest/CMakeFiles/install/strip.util
+
 # =============================================================================
 # Target aliases.
 
+build gmock: phony lib/libgmock.a
+
+build gmock_main: phony lib/libgmock_main.a
+
+build google_test: phony GoogleTest/google_test.exe
+
+build google_test.exe: phony GoogleTest/google_test.exe
+
+build gtest: phony lib/libgtest.a
+
+build gtest_main: phony lib/libgtest_main.a
+
+build libgmock.a: phony lib/libgmock.a
+
+build libgmock_main.a: phony lib/libgmock_main.a
+
+build libgtest.a: phony lib/libgtest.a
+
+build libgtest_main.a: phony lib/libgtest_main.a
+
+build libmylogger_lib.a: phony mylogger/libmylogger_lib.a
+
 build mylogger: phony mylogger.exe
+
+build mylogger_lib: phony mylogger/libmylogger_lib.a
 
 # =============================================================================
 # Folder targets.
@@ -195,7 +827,42 @@ build mylogger: phony mylogger.exe
 #############################################
 # Folder: D:/c++_projects/mylogger/cmake-build-debug
 
-build all: phony mylogger.exe
+build all: phony mylogger.exe mylogger/all mylogger/third_party/googletest/all GoogleTest/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/c++_projects/mylogger/cmake-build-debug/GoogleTest
+
+build GoogleTest/all: phony GoogleTest/google_test.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/c++_projects/mylogger/cmake-build-debug/mylogger
+
+build mylogger/all: phony mylogger/libmylogger_lib.a
+
+# =============================================================================
+
+#############################################
+# Folder: D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/googletest
+
+build mylogger/third_party/googletest/all: phony mylogger/third_party/googletest/googlemock/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/googletest/googlemock
+
+build mylogger/third_party/googletest/googlemock/all: phony lib/libgmock.a lib/libgmock_main.a mylogger/third_party/googletest/googletest/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/googletest/googletest
+
+build mylogger/third_party/googletest/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
 
 # =============================================================================
 # Built-in targets
@@ -204,14 +871,14 @@ build all: phony mylogger.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/c++_projects/mylogger/CMakeLists.txt D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/c++_projects/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/GoogleTest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/Config.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/internal_utils.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/c++_projects/mylogger/CMakeLists.txt D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake: phony
+build CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/c++_projects/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/GoogleTest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/Config.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/internal_utils.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake: phony
 
 
 #############################################

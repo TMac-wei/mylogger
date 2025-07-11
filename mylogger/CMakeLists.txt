@@ -1,33 +1,42 @@
 # mylogger/CMakeLists.txt
 
-cmake_minimum_required(VERSION 3.10)
-
-# 自动收集源文件
-file(GLOB_RECURSE MYLOGGER_SOURCES
-        ${CMAKE_CURRENT_SOURCE_DIR}/**/*.cc
-        ${CMAKE_CURRENT_SOURCE_DIR}/**/*.cpp
+# 自动收集源文件，但是要排除第三方已经编译好的文件
+file(GLOB_RECURSE MYLOGGER_COMMON_SOURCES
+    ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/*.cc
 )
 
-# 创建静态库
-add_library(mylogger STATIC ${MYLOGGER_SOURCES}
-        mmap/mmap_linux.cpp
-        mmap/mmap_win.cpp
-        ../defer.h)
+# 手动移除 GTest 源码
+foreach(file ${MYLOGGER_COMMON_SOURCES})
+    if(file MATCHES ".*/third_party/.*"
+            OR file MATCHES ".*/sys_util_linux.cpp"
+            OR file MATCHES ".*/sys_util_win.cpp"
+            OR file MATCHES ".*/mmap_linux.cpp"
+            OR file MATCHES ".*/mmap_win.cpp")
+        list(REMOVE_ITEM MYLOGGER_COMMON_SOURCES ${file})
+    endif()
+endforeach()
 
-# 设置包含目录（关键修改点）
-target_include_directories(mylogger PUBLIC
-        ${CMAKE_CURRENT_SOURCE_DIR}  # 将mylogger目录设为根包含路径
-)
+# 添加库目标
+add_library(mylogger_lib STATIC ${MYLOGGER_COMMON_SOURCES})
+
+
 
 # 平台特定源文件
 if(UNIX AND NOT APPLE)
-    target_sources(mylogger PRIVATE
+    target_sources(mylogger_lib PRIVATE
             ${CMAKE_CURRENT_SOURCE_DIR}/utils/sys_util_linux.cpp
+            ${CMAKE_CURRENT_SOURCE_DIR}/mmap/mmap_linux.cpp
     )
 elseif(WIN32)
-    target_sources(mylogger PRIVATE
+    target_sources(mylogger_lib PRIVATE
             ${CMAKE_CURRENT_SOURCE_DIR}/utils/sys_util_win.cpp
+            ${CMAKE_CURRENT_SOURCE_DIR}/mmap/mmap_win.cpp
     )
 endif()
 
-# 其他设置保持不变...
+# 创建静态库 头文件路径设置
+target_include_directories(mylogger_lib PUBLIC
+        ${CMAKE_CURRENT_SOURCE_DIR}     # for "space.h"
+        ${CMAKE_SOURCE_DIR}             # for "defer.h"
+)

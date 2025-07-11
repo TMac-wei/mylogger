@@ -1,7 +1,20 @@
 # ninja log v6
-2	220	7737510286541646	CMakeFiles/mylogger.dir/main.cpp.obj.ddi	69da85ecdbb6bbc0
-221	305	7737510289535643	CMakeFiles/mylogger.dir/CXX.dd	ccb817bf9b489dfe
-310	791	7737510289620872	CMakeFiles/mylogger.dir/main.cpp.obj	ebfc55e43879cd33
-221	305	7737510289535643	D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/mylogger.dir/CXXModules.json	ccb817bf9b489dfe
-221	305	7737510289535643	CMakeFiles/mylogger.dir/main.cpp.obj.modmap	ccb817bf9b489dfe
-793	1037	7737510294454061	mylogger.exe	27d8f9d1c142e74a
+82	2460	7739443298895771	mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj	a44a8adc34460530
+254	1709	7739445728139971	mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util_win.cpp.obj	13eebbafed0e2f2f
+290	3732	7739443300973108	mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj	3cc8482a8c65d635
+7	10162	7739443298145697	mylogger/third_party/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	d8d74d54954347b1
+92	778	7739445726513756	mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util.cpp.obj	84fda22816f698d7
+44	851	7739445726028879	mylogger/CMakeFiles/mylogger_lib.dir/utils/file_util.cpp.obj	53023e3256d68068
+343	1725	7739445729019449	mylogger/third_party/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	4dbf6de3471cd56c
+337	1257	7739445728953834	lib/libgtest.a	7118b9907e2dc864
+62	1979	7739454635528855	GoogleTest/CMakeFiles/google_test.dir/space_test.cpp.obj	1da77a161f980cba
+4	2160	7739454634959534	GoogleTest/CMakeFiles/google_test.dir/defer_test.cpp.obj	d7ee0d2c4fd0b11
+2160	2625	7739454656514294	GoogleTest/google_test.exe	c2566995c969269a
+5	355	7739450125876695	mylogger/libmylogger_lib.a	397bb7e379b4ed00
+11	358	7739450125947284	lib/libgtest_main.a	389f00e1f00611df
+4	535	7739450467205557	CMakeFiles/mylogger.dir/main.cpp.obj	5e8932ba2f4fc504
+535	868	7739450472515233	mylogger.exe	ee7a574679c3e79d
+5	1814	7739457362080134	GoogleTest/CMakeFiles/google_test.dir/defer_test.cpp.obj	d7ee0d2c4fd0b11
+1815	2279	7739457380177052	GoogleTest/google_test.exe	c2566995c969269a
+5	1782	7739457711461420	GoogleTest/CMakeFiles/google_test.dir/defer_test.cpp.obj	d7ee0d2c4fd0b11
+1782	2211	7739457729232870	GoogleTest/google_test.exe	c2566995c969269a
