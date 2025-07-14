@@ -30,9 +30,9 @@
 ### 2.2 数据结构设计
 ```cpp
 struct MmapHeader {
-    static constexpr uint32_t kMagic = 0xdeadbeef;  // 魔数，用于验证数据有效性
-    uint32_t magic;                                // 标识文件格式
-    uint32_t size;                                // 当前数据大小
+    static constexpr uint32_t kMagic = 0xdeadbeef;  /// 魔数，用于验证数据有效性
+    uint32_t magic;                                /// 标识文件格式
+    uint32_t size;                                /// 当前数据大小
 };
 ```
 

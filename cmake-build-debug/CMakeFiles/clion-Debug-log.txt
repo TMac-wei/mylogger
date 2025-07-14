@@ -1,8 +1,10 @@
 "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\c++_projects\mylogger -B D:\c++_projects\mylogger\cmake-build-debug
+-- {fmt} version: 11.2.1
+-- Build type: Debug
 -- Targets:
 --   mylogger_lib: $<TARGET_FILE:mylogger_lib>
 --   gtest: $<TARGET_FILE:gtest>
 --   gtest_main: $<TARGET_FILE:gtest_main>
--- Configuring done (0.6s)
+-- Configuring done (1.2s)
 -- Generating done (0.2s)
 -- Build files have been written to: D:/c++_projects/mylogger/cmake-build-debug

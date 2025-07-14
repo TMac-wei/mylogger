@@ -308,6 +308,71 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+FMT_BINARY_DIR:STATIC=D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/fmt
+
+//Installation directory for cmake files, a relative path that
+// will be joined with C:/Program Files (x86)/myLogger or an absolute
+// path.
+FMT_CMAKE_DIR:STRING=lib/cmake/fmt
+
+//Generate the cuda-test target.
+FMT_CUDA_TEST:BOOL=OFF
+
+//Debug library postfix.
+FMT_DEBUG_POSTFIX:STRING=d
+
+//Generate the doc target.
+FMT_DOC:BOOL=OFF
+
+//Generate the fuzz target.
+FMT_FUZZ:BOOL=OFF
+
+//Installation directory for include files, a relative path that
+// will be joined with C:/Program Files (x86)/myLogger or an absolute
+// path.
+FMT_INC_DIR:STRING=include
+
+//Generate the install target.
+FMT_INSTALL:BOOL=ON
+
+//Value Computed by CMake
+FMT_IS_TOP_LEVEL:STATIC=OFF
+
+//Installation directory for libraries, a relative path that will
+// be joined to C:/Program Files (x86)/myLogger or an absolute
+// path.
+FMT_LIB_DIR:STRING=lib
+
+//Build a module instead of a traditional library.
+FMT_MODULE:BOOL=OFF
+
+//Include OS-specific APIs.
+FMT_OS:BOOL=ON
+
+//Enable extra warnings and expensive tests.
+FMT_PEDANTIC:BOOL=OFF
+
+//Installation directory for pkgconfig (.pc) files, a relative
+// path that will be joined with C:/Program Files (x86)/myLogger
+// or an absolute path.
+FMT_PKGCONFIG_DIR:STRING=lib/pkgconfig
+
+//Value Computed by CMake
+FMT_SOURCE_DIR:STATIC=D:/c++_projects/mylogger/mylogger/third_party/fmt
+
+//Expose headers with marking them as system.
+FMT_SYSTEM_HEADERS:BOOL=OFF
+
+//Generate the test target.
+FMT_TEST:BOOL=OFF
+
+//Enable Unicode support.
+FMT_UNICODE:BOOL=ON
+
+//Halt the compilation with an error on compiler warnings.
+FMT_WERROR:BOOL=OFF
+
 //Use Abseil and RE2. Requires Abseil and RE2 to be separately
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
@@ -515,7 +580,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -39,6 +39,14 @@ D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/googletest/googl
 D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/googletest/googletest/CMakeFiles/install.dir
 D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/googletest/googletest/CMakeFiles/install/local.dir
 D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/googletest/googletest/CMakeFiles/install/strip.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/fmt/CMakeFiles/fmt.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/fmt/CMakeFiles/test.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/fmt/CMakeFiles/edit_cache.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/fmt/CMakeFiles/rebuild_cache.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/fmt/CMakeFiles/list_install_components.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/fmt/CMakeFiles/install.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/fmt/CMakeFiles/install/local.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/fmt/CMakeFiles/install/strip.dir
 D:/c++_projects/mylogger/cmake-build-debug/GoogleTest/CMakeFiles/google_test.dir
 D:/c++_projects/mylogger/cmake-build-debug/GoogleTest/CMakeFiles/test.dir
 D:/c++_projects/mylogger/cmake-build-debug/GoogleTest/CMakeFiles/edit_cache.dir

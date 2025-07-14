@@ -1,6 +1,6 @@
 /**
  * @file      space.h
- * @brief     [简要说明此头文件的作用]
+ * @brief     [用于空间量的转换，类似于std::chrono]
  * @author    Weijh
  * @version   1.0
  */

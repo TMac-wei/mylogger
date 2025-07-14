@@ -8,7 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 添加测试可执行文件
 add_executable(google_test
         defer_test.cpp
-        space_test.cpp)
+        space_test.cpp
+        thread_pool.cpp)
 
 # 设置头文件搜索路径
 target_include_directories(google_test PRIVATE
