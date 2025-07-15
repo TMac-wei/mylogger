@@ -124,12 +124,20 @@ TEST(ZstdCompressTest, ContinuousOperations) {
         std::cout << "\n第" << i+1 << "轮测试，原始数据: " << (data.empty() ? "(空数据)" : data) << std::endl;
         std::cout << "原始数据长度: " << data.size() << " 字节" << std::endl;
 
-        // 压缩
+        /// 压缩
         size_t max_size = compressor.CompressedBound(data.size());
         std::vector<char> compressed_buf(max_size);
         size_t compressed_size = compressor.Compress(data.data(), data.size(), compressed_buf.data(), max_size);
         std::cout << "第" << i+1 << "轮压缩后长度: " << compressed_size << " 字节" << std::endl;
-        ASSERT_GT(compressed_size, 0 || data.empty()) << "第" << i+1 << "轮压缩失败";
+
+        // 修正断言逻辑：空数据允许返回0，非空数据必须>0
+        if (data.empty()) {
+            // 空数据压缩后可以是0字节（合理）
+            ASSERT_EQ(compressed_size, 0) << "第" << i+1 << "轮空数据压缩长度错误";
+        } else {
+            // 非空数据压缩后必须>0
+            ASSERT_GT(compressed_size, 0) << "第" << i+1 << "轮压缩失败";
+        }
 
         // 解压缩
         std::string decompressed = compressor.Decompress(compressed_buf.data(), compressed_size);

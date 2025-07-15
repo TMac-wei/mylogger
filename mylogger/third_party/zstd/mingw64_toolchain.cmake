@@ -1,0 +1,11 @@
+# mingw64_toolchain.cmake
+set(CMAKE_SYSTEM_NAME Windows)
+set(CMAKE_C_COMPILER D:/msys64/mingw64/bin/gcc.exe)
+set(CMAKE_CXX_COMPILER D:/msys64/mingw64/bin/g++.exe)
+set(CMAKE_RC_COMPILER D:/msys64/mingw64/bin/windres.exe)
+
+# 防止CMake搜索系统路径
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_PACKAGE ONLY)

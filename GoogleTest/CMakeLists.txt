@@ -5,6 +5,11 @@ project(GoogleTest)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# 设置 Zstd 路径
+set(ZSTD_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../mylogger/third_party/zstd)
+set(ZSTD_INCLUDE_DIR ${ZSTD_DIR}/lib)
+set(ZSTD_LIBRARY ${ZSTD_DIR}/build/cmake/build_mingw/lib/libzstd.a)
+
 # 添加测试可执行文件
 add_executable(google_test
         defer_test.cpp
@@ -13,33 +18,52 @@ add_executable(google_test
         strand_executor.cpp
         context.cpp
         log_handle_test.cpp
-        zlib_compress_test.cpp)
+        zlib_compress_test.cpp
+        zstd_compress_test.cpp
+)
 
 # 设置头文件搜索路径
 target_include_directories(google_test PRIVATE
-        ${PROJECT_SOURCE_DIR}/..       #根目录
+        ${PROJECT_SOURCE_DIR}/..       # 根目录
         ${PROJECT_SOURCE_DIR}/../mylogger
-        ${PROJECT_SOURCE_DIR}/../mylogger/third_party/googletest/googletest/include)
+        ${PROJECT_SOURCE_DIR}/../mylogger/third_party/googletest/googletest/include
+        ${ZSTD_INCLUDE_DIR}           # Zstd 头文件
+)
 
+# 定义一个函数用于检查库是否存在
+function(check_library LIB_PATH LIB_NAME)
+    if(EXISTS ${LIB_PATH})
+        message(STATUS "${LIB_NAME} 库已找到: ${LIB_PATH}")
+    else()
+        message(FATAL_ERROR "${LIB_NAME} 库未找到: ${LIB_PATH}")
+    endif()
+endfunction()
 
-# 链接 自己编译的 GTest
+# 检查依赖库
+check_library(${ZSTD_LIBRARY} "Zstd")
+
+# 链接所有依赖库
 target_link_libraries(google_test PRIVATE
         mylogger_lib
         gtest
         gtest_main
         zlib
+        ${ZSTD_LIBRARY}  # Zstd 静态库
 )
 
 enable_testing()
 add_test(NAME google_test COMMAND google_test)
 
+# 显示链接状态
 if(TARGET zlib)
     message(STATUS "zlib 目标存在，已链接到 google_test")
 else()
     message(WARNING "zlib 目标不存在，链接失败！")
 endif()
 
-message(STATUS "Targets:")
+message(STATUS "链接的库:")
 message(STATUS "  mylogger_lib: $<TARGET_FILE:mylogger_lib>")
 message(STATUS "  gtest: $<TARGET_FILE:gtest>")
 message(STATUS "  gtest_main: $<TARGET_FILE:gtest_main>")
+message(STATUS "  zlib: $<TARGET_FILE:zlib>")
+message(STATUS "  zstd: ${ZSTD_LIBRARY}")

@@ -8,6 +8,7 @@
 #include "compress/zstd_compress.h"
 
 #include <cstring>
+#include <iostream>
 
 namespace logger {
     namespace compress {
@@ -20,17 +21,22 @@ namespace logger {
             cctx_ = ZSTD_createCCtx();
             /// 为了保证后面拿到的都是有效的指针，这里处理有效性
             if (!cctx_) {
+                std::cerr << "无法创建ZSTD压缩上下文" << std::endl;
                 return ;
             }
 
             dctx_ = ZSTD_createDCtx();
             if (!dctx_) {
+                std::cerr << "无法创建ZSTD解压缩上下文" << std::endl;
                 ZSTD_freeCCtx(cctx_);       /// 释放已创建的压缩上下文
                 cctx_ = nullptr;
                 return;
             }
             /// 设置默认压缩级别(cctx_非空）
-            ZSTD_CCtx_setParameter(cctx_, ZSTD_c_compressionLevel, ZSTD_CLEVEL_DEFAULT);
+            size_t result = ZSTD_CCtx_setParameter(cctx_, ZSTD_c_compressionLevel, ZSTD_CLEVEL_DEFAULT);
+            if (ZSTD_isError(result)) {
+                std::cerr << "设置ZSTD压缩级别失败: " << ZSTD_getErrorName(result) << std::endl;
+            }
         }
 
         /**
@@ -105,11 +111,17 @@ namespace logger {
 //                                         output_size, 0};
             /// 调用流式压缩算法：ZSTD_compressStream2
             size_t ret = ZSTD_compressStream2(cctx_, &out_buffer, &data,
-                                              ZSTD_e_flush);///ZSTD_e_flush：刷新模式，确保当前输入数据被完全压缩并写入输出缓冲区（适合单次压缩，非持续流式场景）。
+                                              ZSTD_e_end);///ZSTD_e_flush：刷新模式，确保当前输入数据被完全压缩并写入输出缓冲区（适合单次压缩，非持续流式场景）。
 
             /// 检查压缩是否出错
-            if (ZSTD_isError(ret) != 0) {
+            if (ZSTD_isError(ret)) {
+                std::cerr << "ZSTD压缩错误: " << ZSTD_getErrorName(ret) << std::endl;
                 return 0;
+            }
+
+            /// 确保所有数据都被压缩
+            if (data.pos < data.size) {
+                std::cerr << "ZSTD压缩警告: 输入数据未完全处理" << std::endl;
             }
 
             /// 返回实际压缩后的字节数（out_buffer.pos为已写入的字节数）
@@ -126,6 +138,11 @@ namespace logger {
          */
         std::string ZstdCompress::Decompress(const void* data, size_t size) {
             if (!data || size == 0) {
+                return "";
+            }
+
+            // 检查是否是ZSTD格式数据
+            if (!InternalIsCompressed(data, size)) {
                 return "";
             }
 
@@ -168,17 +185,23 @@ namespace logger {
 
             /// 定义ZSTD输入缓冲区（待解压缩数据）
             ZSTD_inBuffer input = {data, size, 0};
-            size_t ret = ZSTD_decompressStream(dctx_, &output_buffer, &input);
 
-            /// 循环处理缓冲区不足的情况（ret > 0 表示需要更多输出空间）
-            while (ZSTD_isError(ret) == 0 && ret > 0) {
-                output.resize(output.size() * 2);       /// 翻倍扩容
-                output_buffer = {output.data(), output.size(), output_buffer.pos};
+            /// 循环处理直到所有输入数据都被消耗完
+            size_t ret ;
+            while (input.pos < input.size) {
                 ret = ZSTD_decompressStream(dctx_, &output_buffer, &input);
-            }
 
-            if (ZSTD_isError(ret) != 0) {
-                return "";
+                if (ZSTD_isError(ret) != 0) {
+                    std::cerr << "ZSTD解压缩错误: " << ZSTD_getErrorName(ret) << std::endl;
+                    return "";
+                }
+
+                /// 如果输出缓冲区已满但输入尚未处理完毕，则扩容
+                if (input.pos < input.size && output_buffer.pos == output_buffer.size) {
+                    size_t new_size = output.size() * 2;
+                    output.resize(new_size);
+                    output_buffer = {output.data(), output.size(), output_buffer.pos};
+                }
             }
 
             /// 直接调整大小，避免冗余拷贝

@@ -16,6 +16,11 @@ enable_testing()
 
 add_subdirectory(mylogger/third_party/zlib)
 
+# 添加 Zstd 库路径和头文件
+set(ZSTD_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/mylogger/third_party/zstd/lib)
+set(ZSTD_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/mylogger/third_party/zstd/build/cmake/build_mingw/libzstd.a)
+
+
 # 添加子目录(子目录有自己的 CMakeLists.txt）
 add_subdirectory(mylogger)
 add_subdirectory(mylogger/third_party/googletest)
@@ -30,6 +35,7 @@ add_executable(mylogger main.cpp)
 target_include_directories(mylogger
         PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/mylogger
+        ${ZSTD_INCLUDE_DIR}
 )
 
 target_link_libraries(mylogger PRIVATE
