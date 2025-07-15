@@ -181,7 +181,12 @@ namespace logger {
                                             Task task,
                                             const std::chrono::duration<R, P> &delta,
                                             uint64_t repeat_num) {
+                Task func = std::bind(&Executor::PostTask, this, runnerTag, std::move(task));
 
+                executor_timer_->Start();
+
+                return executor_timer_->PostRepeatedTask(std::move(func),
+                                                         std::chrono::duration_cast<std::chrono::microseconds>(delta), repeat_num);
             }
 
             /// 带有返回值的任务提交
@@ -189,7 +194,20 @@ namespace logger {
             auto PostTaskAndGetResult(const TaskRunnerTag &runnerTag,
                                       F &&func,
                                       Args &&... args) -> std::shared_ptr<std::future<std::result_of_t<F(Args...)>>> {
+                /// 从任务执行管理器中取出一个任务执行器
+//                ExecutorContext::TaskRunner *task_runner = executor_context_->GetTaskRunner(runnerTag);
+//                auto ret = task_runner->SubmitRetTask(std::forward<F>(func), std::forward<Args>(args)...);
+//                return ret;
 
+                using ResultType = std::result_of_t<F(Args...)>;
+                auto task = std::make_shared<std::packaged_task<ResultType()>>(
+                        std::bind(std::forward<F>(func), std::forward<Args>(args)...)
+                        );
+                auto future = std::make_shared<std::future<ResultType>>(task->get_future());
+                PostTask(runnerTag, [task](){
+                    (*task)();
+                });
+                return future;
             }
 
             /// 取消任务

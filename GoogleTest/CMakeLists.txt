@@ -9,7 +9,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(google_test
         defer_test.cpp
         space_test.cpp
-        thread_pool.cpp)
+        thread_pool.cpp
+        strand_executor.cpp
+        context.cpp
+        log_handle_test.cpp)
 
 # 设置头文件搜索路径
 target_include_directories(google_test PRIVATE

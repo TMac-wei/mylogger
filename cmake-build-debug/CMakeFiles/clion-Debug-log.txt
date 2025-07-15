@@ -5,6 +5,6 @@
 --   mylogger_lib: $<TARGET_FILE:mylogger_lib>
 --   gtest: $<TARGET_FILE:gtest>
 --   gtest_main: $<TARGET_FILE:gtest_main>
--- Configuring done (1.2s)
+-- Configuring done (0.5s)
 -- Generating done (0.2s)
 -- Build files have been written to: D:/c++_projects/mylogger/cmake-build-debug

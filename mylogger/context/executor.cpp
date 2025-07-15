@@ -5,8 +5,6 @@
  * @version   1.0
  */
 
-#pragma once
-
 #include "context/executor.h"
 
 namespace logger {
@@ -274,11 +272,18 @@ namespace logger {
             }
 
             /// 如果仍然活跃，直接执行当前的任务
-            task();
+            {
+                std::unique_lock<std::mutex> lock(mutex_);
+                task();
+            }
 
             /// 找到下一个需要执行的任务
-            Task func = std::bind(&Executor::ExecutorTimer::PostTask_, this, std::move(task), delta, repeated_task_id,
-                                  repeat_num - 1);
+//            Task func = std::bind(&Executor::ExecutorTimer::PostTask_, this, std::move(task), delta, repeated_task_id,
+//                                  repeat_num - 1);
+            /// 使用非递归方式提交任务
+            Task func = [this, task = std::move(task), delta, repeated_task_id, repeat_num]() mutable {
+                this->PostRepeatedTask_(std::move(task), delta, repeated_task_id, repeat_num - 1);
+            };
             /// 创建任务内部结构体
             Internals task_inside_;
             task_inside_.time_point = std::chrono::high_resolution_clock::now() + delta;

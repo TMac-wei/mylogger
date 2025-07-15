@@ -165,6 +165,41 @@ build install/strip: phony CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_mylogger_lib: phony || .
 
+build mylogger/CMakeFiles/mylogger_lib.dir/context/context.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/context/context.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\context\context.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\context
+
+build mylogger/CMakeFiles/mylogger_lib.dir/context/executor.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/context/executor.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\context\executor.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\context
+
+build mylogger/CMakeFiles/mylogger_lib.dir/context/thread_pool.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/context/thread_pool.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\context\thread_pool.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\context
+
+build mylogger/CMakeFiles/mylogger_lib.dir/formatter/default_formatter.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/formatter/default_formatter.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\formatter\default_formatter.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\formatter
+
+build mylogger/CMakeFiles/mylogger_lib.dir/log_handle.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/log_handle.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\log_handle.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+
 build mylogger/CMakeFiles/mylogger_lib.dir/log_msg.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/log_msg.cpp || cmake_object_order_depends_target_mylogger_lib
   DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\log_msg.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
@@ -178,6 +213,13 @@ build mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj: CXX_COMPILER__m
   INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
   OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
   OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\mmap
+
+build mylogger/CMakeFiles/mylogger_lib.dir/sinks/console_sink.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/sinks/console_sink.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\sinks\console_sink.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\sinks
 
 build mylogger/CMakeFiles/mylogger_lib.dir/utils/file_util.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/utils/file_util.cpp || cmake_object_order_depends_target_mylogger_lib
   DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\utils\file_util.cpp.obj.d
@@ -215,7 +257,7 @@ build mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the static library mylogger\libmylogger_lib.a
 
-build mylogger/libmylogger_lib.a: CXX_STATIC_LIBRARY_LINKER__mylogger_lib_Debug mylogger/CMakeFiles/mylogger_lib.dir/log_msg.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/file_util.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util_win.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj
+build mylogger/libmylogger_lib.a: CXX_STATIC_LIBRARY_LINKER__mylogger_lib_Debug mylogger/CMakeFiles/mylogger_lib.dir/context/context.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/context/executor.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/context/thread_pool.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/formatter/default_formatter.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/log_handle.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/log_msg.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj mylogger/CMakeFiles/mylogger_lib.dir/sinks/console_sink.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/file_util.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util_win.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
   POST_BUILD = cd .
@@ -823,6 +865,34 @@ build GoogleTest/CMakeFiles/google_test.dir/space_test.cpp.obj: CXX_COMPILER__go
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
+build GoogleTest/CMakeFiles/google_test.dir/thread_pool.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/thread_pool.cpp || cmake_object_order_depends_target_google_test
+  DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\thread_pool.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
+  OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
+
+build GoogleTest/CMakeFiles/google_test.dir/strand_executor.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/strand_executor.cpp || cmake_object_order_depends_target_google_test
+  DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\strand_executor.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
+  OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
+
+build GoogleTest/CMakeFiles/google_test.dir/context.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/context.cpp || cmake_object_order_depends_target_google_test
+  DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\context.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
+  OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
+
+build GoogleTest/CMakeFiles/google_test.dir/log_handle_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/log_handle_test.cpp || cmake_object_order_depends_target_google_test
+  DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\log_handle_test.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
+  OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target google_test
@@ -831,7 +901,7 @@ build GoogleTest/CMakeFiles/google_test.dir/space_test.cpp.obj: CXX_COMPILER__go
 #############################################
 # Link the executable GoogleTest\google_test.exe
 
-build GoogleTest/google_test.exe: CXX_EXECUTABLE_LINKER__google_test_Debug GoogleTest/CMakeFiles/google_test.dir/defer_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/space_test.cpp.obj | mylogger/libmylogger_lib.a lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a mylogger/libmylogger_lib.a
+build GoogleTest/google_test.exe: CXX_EXECUTABLE_LINKER__google_test_Debug GoogleTest/CMakeFiles/google_test.dir/defer_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/space_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/thread_pool.cpp.obj GoogleTest/CMakeFiles/google_test.dir/strand_executor.cpp.obj GoogleTest/CMakeFiles/google_test.dir/context.cpp.obj GoogleTest/CMakeFiles/google_test.dir/log_handle_test.cpp.obj | mylogger/libmylogger_lib.a lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a mylogger/libmylogger_lib.a
   FLAGS = -g
   LINK_LIBRARIES = mylogger/libmylogger_lib.a  lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir

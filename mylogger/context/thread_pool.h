@@ -77,8 +77,7 @@ namespace logger {
 
                 auto bind_task = std::bind(std::forward<F>(func), std::forward<Args>(args)...);
                 /// 打包获取的带返回值的任务，并且使用智能指针进行管理
-                auto task = std::make_shared<std::packaged_task<ret_type>()>>
-                (std::move(bind_task));
+                auto task = std::make_shared<std::packaged_task<ret_type>()>(std::move(bind_task));
                 std::future<ret_type> res = task->get_future();
                 {
                     std::unique_lock<std::mutex> lock(task_mutex_);
