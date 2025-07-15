@@ -302,9 +302,3 @@ TEST_LOG("负数加法测试通过");
 TEST_LOG("特殊值处理测试完成\n");
 }
 
-//int main(int argc, char **argv) {
-//    std::cout << "\033[1;32m=== 开始运行 space.h 单元测试 ===\033[0m" << std::endl;
-//    testing::InitGoogleTest(&argc, argv);
-//    return RUN_ALL_TESTS();
-//}
-

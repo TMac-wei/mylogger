@@ -192,15 +192,3 @@ TEST(ThreadPoolTest, SubmitTask_PoolState) {
     std::cout << "线程池状态测试通过" << std::endl;
 }
 
-// 主函数：执行所有测试
-//int main(int argc, char **argv) {
-//    testing::InitGoogleTest(&argc, argv);
-//    std::cout << "===== 开始执行线程池 SubmitTask 测试 =====" << std::endl;
-//    int ret = RUN_ALL_TESTS();
-//    if (ret == 0) {
-//        std::cout << "\n===== 所有测试通过 =====" << std::endl;
-//    } else {
-//        std::cout << "\n===== 部分测试失败 =====" << std::endl;
-//    }
-//    return ret;
-//}

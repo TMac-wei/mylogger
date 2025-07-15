@@ -97,7 +97,3 @@ TEST(ContextTest, MultiThreadTaskSafety) {
     std::cout << "多线程任务测试通过，计数器结果：" << shared_counter << std::endl;
 }
 
-//int main(int argc, char **argv) {
-//    testing::InitGoogleTest(&argc, argv);
-//    return RUN_ALL_TESTS();
-//}

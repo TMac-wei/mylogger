@@ -6,6 +6,14 @@ D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/list_install_components.di
 D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/install.dir
 D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/install/local.dir
 D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/install/strip.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/zlib/CMakeFiles/zlib.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/zlib/CMakeFiles/test.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/zlib/CMakeFiles/edit_cache.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/zlib/CMakeFiles/rebuild_cache.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/zlib/CMakeFiles/list_install_components.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/zlib/CMakeFiles/install.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/zlib/CMakeFiles/install/local.dir
+D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/zlib/CMakeFiles/install/strip.dir
 D:/c++_projects/mylogger/cmake-build-debug/mylogger/CMakeFiles/mylogger_lib.dir
 D:/c++_projects/mylogger/cmake-build-debug/mylogger/CMakeFiles/test.dir
 D:/c++_projects/mylogger/cmake-build-debug/mylogger/CMakeFiles/edit_cache.dir

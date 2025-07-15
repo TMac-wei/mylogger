@@ -12,7 +12,8 @@ add_executable(google_test
         thread_pool.cpp
         strand_executor.cpp
         context.cpp
-        log_handle_test.cpp)
+        log_handle_test.cpp
+        zlib_compress_test.cpp)
 
 # 设置头文件搜索路径
 target_include_directories(google_test PRIVATE
@@ -26,10 +27,17 @@ target_link_libraries(google_test PRIVATE
         mylogger_lib
         gtest
         gtest_main
+        zlib
 )
 
 enable_testing()
 add_test(NAME google_test COMMAND google_test)
+
+if(TARGET zlib)
+    message(STATUS "zlib 目标存在，已链接到 google_test")
+else()
+    message(WARNING "zlib 目标不存在，链接失败！")
+endif()
 
 message(STATUS "Targets:")
 message(STATUS "  mylogger_lib: $<TARGET_FILE:mylogger_lib>")

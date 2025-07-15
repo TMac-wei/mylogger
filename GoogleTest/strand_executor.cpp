@@ -113,15 +113,3 @@ TEST(ExecutorTest, PostTaskAndGetResult_Execution) {
     std::cout << "带返回值任务测试通过：结果=" << result << std::endl;
 }
 
-// 主函数：执行所有测试
-//int main(int argc, char **argv) {
-//    testing::InitGoogleTest(&argc, argv);
-//    std::cout << "===== 开始执行 Executor 测试 =====" << std::endl;
-//    int ret = RUN_ALL_TESTS();
-//    if (ret == 0) {
-//        std::cout << "\n===== 所有测试通过 =====" << std::endl;
-//    } else {
-//        std::cout << "\n===== 部分测试失败 =====" << std::endl;
-//    }
-//    return ret;
-//}

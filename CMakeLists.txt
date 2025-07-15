@@ -1,3 +1,5 @@
+cmake_policy(SET CMP0079 NEW)  # 支持跨目录链接政策
+
 cmake_minimum_required(VERSION 3.10)
 project(myLogger)
 
@@ -12,10 +14,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 启用测试
 enable_testing()
 
+add_subdirectory(mylogger/third_party/zlib)
+
 # 添加子目录(子目录有自己的 CMakeLists.txt）
 add_subdirectory(mylogger)
 add_subdirectory(mylogger/third_party/googletest)
 add_subdirectory(mylogger/third_party/fmt)
+#add_subdirectory(mylogger/third_party/zstd)
 add_subdirectory(GoogleTest)
 
 # 主可执行程序
