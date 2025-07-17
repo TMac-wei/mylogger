@@ -189,11 +189,11 @@ TEST(ZstdCompressTest, CompressedBound) {
     std::cout << "===== 结束测试 ZstdCompressTest.CompressedBound =====" << std::endl;
 }
 
-int main(int argc, char **argv) {
-    std::cout << "初始化GoogleTest框架..." << std::endl;
-    ::testing::InitGoogleTest(&argc, argv);
-    std::cout << "开始执行ZstdCompress测试用例...\n" << std::endl;
-    int result = RUN_ALL_TESTS();
-    std::cout << "\n所有测试执行完毕，返回码: " << result << std::endl;
-    return result;
-}
+//int main(int argc, char **argv) {
+//    std::cout << "初始化GoogleTest框架..." << std::endl;
+//    ::testing::InitGoogleTest(&argc, argv);
+//    std::cout << "开始执行ZstdCompress测试用例...\n" << std::endl;
+//    int result = RUN_ALL_TESTS();
+//    std::cout << "\n所有测试执行完毕，返回码: " << result << std::endl;
+//    return result;
+//}

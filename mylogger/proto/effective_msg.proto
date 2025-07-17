@@ -1,0 +1,14 @@
+syntax = "proto3";
+option optimize_for = LITE_RUNTIME;
+
+// 消息定义
+message EffectiveMsg {
+  int32 level = 1;          /// 日志级别（如 DEBUG=1、INFO=2、WARN=3、ERROR=4 等，用整数表示便于高效比较）
+  int64 timestamp = 2;      /// 日志产生的时间戳
+  int32 pid = 3;            /// 进程ID
+  int32 tid = 4;            /// 线程ID
+  int32 line = 5;           /// 代码行号
+  string file_name = 6;     /// 文件名（日志打印语句所在的源代码文件名，如 “logger.cpp”）
+  string func_name = 7;     /// 函数名
+  string log_info = 8;      /// 日志内容（实际的日志文本）
+}

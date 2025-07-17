@@ -24,8 +24,14 @@ add_subdirectory(mylogger/third_party/cryptopp_cmake)
 add_subdirectory(mylogger)
 add_subdirectory(mylogger/third_party/googletest)
 add_subdirectory(mylogger/third_party/fmt)
-#add_subdirectory(mylogger/third_party/zstd)
 add_subdirectory(GoogleTest)
+
+# 定义Protobuf路径
+set(PROTOBUF_ROOT ${CMAKE_CURRENT_SOURCE_DIR}/mylogger/third_party/protobuf-21.8)
+set(PROTOBUF_INCLUDE_DIR ${PROTOBUF_ROOT}/include)
+set(PROTOBUF_LIB_DIR ${PROTOBUF_ROOT}/lib)
+set(PROTOBUF_PROTOC_EXECUTABLE ${PROTOBUF_ROOT}/bin/protoc.exe)
+
 
 # 主可执行程序
 add_executable(mylogger main.cpp)
@@ -35,10 +41,12 @@ target_include_directories(mylogger
         PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/mylogger
         ${ZSTD_INCLUDE_DIR}
+        ${PROTOBUF_INCLUDE_DIR}
 )
 
 target_link_libraries(mylogger PRIVATE
         mylogger_lib
         fmt::fmt
+        ${PROTOBUF_LIB_DIR}/libprotobuf.a
 )
 

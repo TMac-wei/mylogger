@@ -502,6 +502,36 @@ GoogleTest_SOURCE_DIR:STATIC=D:/c++_projects/mylogger/GoogleTest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
 
+//Path to a file.
+Protobuf_INCLUDE_DIR:PATH=Protobuf_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+Protobuf_LIBRARY_DEBUG:FILEPATH=D:/software/mysql-9.3.0-winx64/mysql-9.3.0-winx64/bin/libprotobuf.lib
+
+//Path to a library.
+Protobuf_LIBRARY_RELEASE:FILEPATH=D:/software/mysql-9.3.0-winx64/mysql-9.3.0-winx64/bin/libprotobuf.lib
+
+//Path to a library.
+Protobuf_LITE_LIBRARY_DEBUG:FILEPATH=D:/software/mysql-9.3.0-winx64/mysql-9.3.0-winx64/bin/libprotobuf-lite.lib
+
+//Path to a library.
+Protobuf_LITE_LIBRARY_RELEASE:FILEPATH=D:/software/mysql-9.3.0-winx64/mysql-9.3.0-winx64/bin/libprotobuf-lite.lib
+
+//The Google Protocol Buffers Compiler
+Protobuf_PROTOC_EXECUTABLE:FILEPATH=D:/software/anaconda/Library/bin/protoc.exe
+
+//Path to a library.
+Protobuf_PROTOC_LIBRARY_DEBUG:FILEPATH=Protobuf_PROTOC_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+Protobuf_PROTOC_LIBRARY_RELEASE:FILEPATH=Protobuf_PROTOC_LIBRARY_RELEASE-NOTFOUND
+
+//No help, variable specified on the command line.
+Python3_EXECUTABLE:UNINITIALIZED=D:/software/anaconda3/envs/mylogger/python.exe
+
+//No help, variable specified on the command line.
+Python_EXECUTABLE:UNINITIALIZED=D:/software/anaconda3/envs/mylogger/python.exe
+
 //Value Computed by CMake
 cryptopp-cmake_BINARY_DIR:STATIC=D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/cryptopp_cmake
 
@@ -565,6 +595,9 @@ myLogger_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 myLogger_SOURCE_DIR:STATIC=D:/c++_projects/mylogger
+
+//Dependencies for the target
+mylogger_lib_LIB_DEPENDS:STATIC=general;D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotobuf.a;general;D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotoc.a;
 
 //Value Computed by CMake
 zlib_BINARY_DIR:STATIC=D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/zlib
@@ -813,6 +846,22 @@ FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[D:/software/Git/cmd/git.exe][v2.47.1.
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_INCLUDE_DIR
+Protobuf_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_LIBRARY_DEBUG
+Protobuf_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_LIBRARY_RELEASE
+Protobuf_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_LITE_LIBRARY_DEBUG
+Protobuf_LITE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_LITE_LIBRARY_RELEASE
+Protobuf_LITE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_PROTOC_EXECUTABLE
+Protobuf_PROTOC_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_PROTOC_LIBRARY_DEBUG
+Protobuf_PROTOC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_PROTOC_LIBRARY_RELEASE
+Protobuf_PROTOC_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
