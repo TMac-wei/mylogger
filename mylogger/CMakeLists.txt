@@ -39,4 +39,5 @@ endif()
 target_include_directories(mylogger_lib PUBLIC
         ${CMAKE_CURRENT_SOURCE_DIR}     # for "space.h"
         ${CMAKE_SOURCE_DIR}             # for "defer.h"
+        ${CMAKE_CURRENT_SOURCE_DIR}/third_party/cryptopp_cmake
 )

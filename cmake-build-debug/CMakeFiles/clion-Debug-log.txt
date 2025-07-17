@@ -1,7 +1,23 @@
 "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\c++_projects\mylogger -B D:\c++_projects\mylogger\cmake-build-debug
+=> Project : cryptopp-cmake v8.9.0
+-- Using branch master for tests
+=> Module : cryptopp
+-- [cryptopp] CMake version 3.30.5
+-- [cryptopp] System Windows
+-- [cryptopp] Processor AMD64
+-- [cryptopp] CMAKE_HOST_SYSTEM_PROCESSOR : AMD64
+-- [cryptopp]      CMAKE_SYSTEM_PROCESSOR : AMD64
+-- [cryptopp] Target architecture detected as: mingw64 -> CRYPTOPP_MINGW64
+-- [cryptopp] Generating cmake package config files
+-- [cryptopp] Generating pkgconfig files
+-- [cryptopp] Platform: MinGW-64
+-- [cryptopp] Compiler definitions:  
+-- [cryptopp] Compiler options:   
+-- [cryptopp] Build type: Debug
 -- {fmt} version: 11.2.1
 -- Build type: Debug
 -- Zstd 库已找到: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/build/cmake/build_mingw/lib/libzstd.a
+-- Crypto++ 库已找到: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/build/cryptopp/libcryptopp.a
 -- zlib 目标存在，已链接到 google_test
 -- 链接的库:
 --   mylogger_lib: $<TARGET_FILE:mylogger_lib>
@@ -9,6 +25,7 @@
 --   gtest_main: $<TARGET_FILE:gtest_main>
 --   zlib: $<TARGET_FILE:zlib>
 --   zstd: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/build/cmake/build_mingw/lib/libzstd.a
--- Configuring done (0.5s)
+--   cryptopp: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/build/cryptopp/libcryptopp.a
+-- Configuring done (7.2s)
 -- Generating done (0.2s)
 -- Build files have been written to: D:/c++_projects/mylogger/cmake-build-debug

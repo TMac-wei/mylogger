@@ -5,6 +5,11 @@ project(GoogleTest)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# 设置 Crypto++ 路径
+set(CRYPTOPP_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../mylogger/third_party/cryptopp_cmake)
+set(CRYPTOPP_INCLUDE_DIR ${CRYPTOPP_DIR}/cryptopp)
+set(CRYPTOPP_LIBRARY ${CRYPTOPP_DIR}/build/cryptopp/libcryptopp.a)
+
 # 设置 Zstd 路径
 set(ZSTD_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../mylogger/third_party/zstd)
 set(ZSTD_INCLUDE_DIR ${ZSTD_DIR}/lib)
@@ -20,6 +25,7 @@ add_executable(google_test
         log_handle_test.cpp
         zlib_compress_test.cpp
         zstd_compress_test.cpp
+        crypt_test.cpp
 )
 
 # 设置头文件搜索路径
@@ -28,6 +34,7 @@ target_include_directories(google_test PRIVATE
         ${PROJECT_SOURCE_DIR}/../mylogger
         ${PROJECT_SOURCE_DIR}/../mylogger/third_party/googletest/googletest/include
         ${ZSTD_INCLUDE_DIR}           # Zstd 头文件
+        ${CRYPTOPP_INCLUDE_DIR}
 )
 
 # 定义一个函数用于检查库是否存在
@@ -41,6 +48,7 @@ endfunction()
 
 # 检查依赖库
 check_library(${ZSTD_LIBRARY} "Zstd")
+check_library(${CRYPTOPP_LIBRARY} "Crypto++")
 
 # 链接所有依赖库
 target_link_libraries(google_test PRIVATE
@@ -49,6 +57,7 @@ target_link_libraries(google_test PRIVATE
         gtest_main
         zlib
         ${ZSTD_LIBRARY}  # Zstd 静态库
+        ${CRYPTOPP_LIBRARY}
 )
 
 enable_testing()
@@ -67,3 +76,4 @@ message(STATUS "  gtest: $<TARGET_FILE:gtest>")
 message(STATUS "  gtest_main: $<TARGET_FILE:gtest_main>")
 message(STATUS "  zlib: $<TARGET_FILE:zlib>")
 message(STATUS "  zstd: ${ZSTD_LIBRARY}")
+message(STATUS "  cryptopp: ${CRYPTOPP_LIBRARY}")

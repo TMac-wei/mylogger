@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/zlib/cmake_install.cmake")
+  include("D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/cryptopp_cmake/cmake_install.cmake")
   include("D:/c++_projects/mylogger/cmake-build-debug/mylogger/cmake_install.cmake")
   include("D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/googletest/cmake_install.cmake")
   include("D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/fmt/cmake_install.cmake")

@@ -1,0 +1,305 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1547,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1559,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1571,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1580,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1587,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "cryptopp_dev",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"mylogger/third_party/cryptopp_cmake/cryptopp/libcryptopp.a"
+			],
+			"targetId" : "cryptopp::@c03e0e9206d2f1ddb642",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "cryptopp_dev",
+			"destination" : "include/cryptopp",
+			"paths" : 
+			[
+				"mylogger/third_party/cryptopp_cmake/cryptopp/3way.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/adler32.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/adv_simd.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/aes.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/aes_armv4.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/algebra.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/algparam.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/allocate.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/arc4.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/argnames.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/aria.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/arm_simd.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/asn.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/authenc.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/base32.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/base64.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/basecode.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/blake2.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/blowfish.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/blumshub.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/camellia.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/cast.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/cbcmac.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/ccm.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/chacha.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/chachapoly.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/cham.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/channels.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/cmac.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config_align.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config_asm.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config_cpu.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config_cxx.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config_dll.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config_int.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config_misc.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config_ns.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config_os.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/config_ver.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/cpu.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/crc.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/cryptlib.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/darn.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/default.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/des.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/dh.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/dh2.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/dll.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/dmac.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/donna.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/donna_32.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/donna_64.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/donna_sse.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/drbg.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/dsa.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/eax.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/ec2n.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/eccrypto.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/ecp.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/ecpoint.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/elgamal.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/emsa2.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/eprecomp.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/esign.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/fhmqv.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/files.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/filters.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/fips140.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/fltrimpl.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/gcm.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/gf256.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/gf2_32.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/gf2n.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/gfpcrypt.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/gost.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/gzip.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/hashfwd.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/hc128.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/hc256.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/hex.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/hight.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/hkdf.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/hmac.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/hmqv.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/hrtimer.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/ida.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/idea.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/integer.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/iterhash.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/kalyna.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/keccak.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/lea.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/lsh.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/lubyrack.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/luc.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/mars.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/md2.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/md4.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/md5.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/mdc.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/mersenne.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/misc.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/modarith.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/modes.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/modexppc.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/mqueue.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/mqv.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/naclite.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/nbtheory.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/nr.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/oaep.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/oids.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/osrng.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/ossig.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/padlkrng.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/panama.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/pch.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/pkcspad.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/poly1305.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/polynomi.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/ppc_simd.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/pssr.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/pubkey.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/pwdbased.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/queue.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/rabbit.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/rabin.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/randpool.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/rc2.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/rc5.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/rc6.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/rdrand.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/rijndael.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/ripemd.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/rng.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/rsa.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/rw.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/safer.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/salsa.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/scrypt.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/seal.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/secblock.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/secblockfwd.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/seckey.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/seed.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/serpent.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/serpentp.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/sha.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/sha1_armv4.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/sha256_armv4.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/sha3.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/sha512_armv4.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/shacal2.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/shake.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/shark.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/simeck.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/simon.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/simple.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/siphash.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/skipjack.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/sm3.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/sm4.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/smartptr.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/sosemanuk.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/speck.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/square.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/stdcpp.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/strciphr.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/tea.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/threefish.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/tiger.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/trap.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/trunhash.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/ttmac.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/tweetnacl.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/twofish.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/vmac.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/wake.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/whrlpool.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/words.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/xed25519.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/xtr.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/xtrcrypt.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/xts.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/zdeflate.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/zinflate.h",
+				"mylogger/third_party/cryptopp_cmake/cryptopp/zlib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "cryptopp_dev",
+			"destination" : "share/cmake/cryptopp",
+			"exportName" : "cryptopp_Targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "cryptopp::@c03e0e9206d2f1ddb642",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"mylogger/third_party/cryptopp_cmake/cryptopp/CMakeFiles/Export/b2240bf58d48ab81379cb5dc4149e5db/cryptopp-static-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "cryptopp_dev",
+			"destination" : "share/cmake/cryptopp",
+			"paths" : 
+			[
+				"mylogger/third_party/cryptopp_cmake/cryptopp/cryptoppConfig.cmake",
+				"cmake-build-debug/mylogger/third_party/cryptopp_cmake/cryptopp/cryptoppConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "cryptopp_dev",
+			"destination" : "share/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/mylogger/third_party/cryptopp_cmake/cryptopp/cryptopp.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "mylogger/third_party/cryptopp_cmake/cryptopp",
+		"source" : "mylogger/third_party/cryptopp_cmake/cryptopp"
+	}
+}

@@ -7,10 +7,6 @@ project(myLogger)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# VCPKG 工具链路径（用于查找 GTest 等包）  这里使用gtest会发生冲突，所以使用手动链接源码的方式
-#set(CMAKE_TOOLCHAIN_FILE "D:/c++_projects/vcpkg/vcpkg/scripts/buildsystems/vcpkg.cmake"
-#        CACHE STRING "Vcpkg toolchain file")
-
 # 启用测试
 enable_testing()
 
@@ -19,6 +15,9 @@ add_subdirectory(mylogger/third_party/zlib)
 # 添加 Zstd 库路径和头文件
 set(ZSTD_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/mylogger/third_party/zstd/lib)
 set(ZSTD_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/mylogger/third_party/zstd/build/cmake/build_mingw/libzstd.a)
+
+
+add_subdirectory(mylogger/third_party/cryptopp_cmake)
 
 
 # 添加子目录(子目录有自己的 CMakeLists.txt）

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mylogger/third_party/cryptopp_cmake",
+		"source" : "mylogger/third_party/cryptopp_cmake"
+	}
+}

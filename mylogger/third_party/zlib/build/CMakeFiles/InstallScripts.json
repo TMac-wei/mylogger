@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/c++_projects/mylogger/mylogger/third_party/zlib/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

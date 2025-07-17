@@ -1,4 +1,4 @@
-ToolSet: 13.0 w64 (local)@D:\msys64\mingw64
+ToolSet: 14.0 w64 (local)@D:\msys64\mingw64
 Ninja: 1.12.1@D:\software\JetBrains\CLion 2024.3.3\bin\ninja\win\x64\ninja.exe
 Options: 
 
