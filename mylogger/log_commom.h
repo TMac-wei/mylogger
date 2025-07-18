@@ -7,7 +7,6 @@
 
 #pragma once
 
-#include <string.h>
 #include <cstdint>
 #include <memory>
 #include <string>

@@ -18,7 +18,7 @@
 #define LOG_INFO(...) \
     fmt::print("[INFO] [{} : {}] {} {}\n", __FILE__, __LINE__, std::chrono::system_clock::now(), fmt::format(__VA_ARGS__))
 
-#define LOG_DEUBG(...) \
+#define LOG_DEBUG(...) \
     fmt::print("[DEBUG] [{} : {}] {} {}\n", __FILE__, __LINE__, std::chrono::system_clock::now(), fmt::format(__VA_ARGS__))
 
 #define LOG_WARN(...) \
@@ -31,7 +31,7 @@
 /// 未启用ENBALE_LOG则执行下方代码
 #define LOG_INFO(...)
 
-#define LOG_DEUBG(...)
+#define LOG_DEBUG(...)
 
 #define LOG_WARN(...)
 

@@ -162,11 +162,11 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest::@438e5fec685de40d008d"
+			"id" : "gtest_main::@438e5fec685de40d008d"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest_main::@438e5fec685de40d008d"
+			"id" : "gtest::@438e5fec685de40d008d"
 		}
 	],
 	"id" : "google_test::@b7da687d4e8a37977221",
