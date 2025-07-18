@@ -53,3 +53,17 @@
 7	1497	7744422961523858	GoogleTest/CMakeFiles/google_test.dir/proto_test.cpp.obj	9d6a95d5965d8318
 8	159	7744420091930820	mylogger/effective_msg.pb.h	b65203a263311807
 8	159	7744420091930820	D:/c++_projects/mylogger/cmake-build-debug/mylogger/effective_msg.pb.cc	b65203a263311807
+131	1554	7745521786445618	mylogger/CMakeFiles/mylogger_lib.dir/log_factory.cpp.obj	2711ed56fda55a49
+365	1635	7745521788779868	mylogger/CMakeFiles/mylogger_lib.dir/log_msg.cpp.obj	3cae05c70d89e1a3
+8	1636	7745521785213317	mylogger/CMakeFiles/mylogger_lib.dir/formatter/default_formatter.cpp.obj	ae541abfc2fb0d1d
+231	1848	7745521787446076	mylogger/CMakeFiles/mylogger_lib.dir/log_handle.cpp.obj	37a2926684c3ae5d
+503	1874	7745521790166130	mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj	150aed5a48ba38ad
+628	2081	7745521791410960	mylogger/CMakeFiles/mylogger_lib.dir/sinks/console_sink.cpp.obj	9eeb53200bfa94ee
+60	2566	7745521785733306	mylogger/CMakeFiles/mylogger_lib.dir/formatter/effective_formatter.cpp.obj	6cc241e28754586c
+1156	3513	7745521796693042	GoogleTest/CMakeFiles/google_test.dir/proto_test.cpp.obj	9d6a95d5965d8318
+1030	3614	7745521795434279	GoogleTest/CMakeFiles/google_test.dir/log_handle_test.cpp.obj	4c4cbda927fc3ecc
+1267	4012	7745521797806534	GoogleTest/CMakeFiles/google_test.dir/effective_sink_test.cpp.obj	81bd577088b3f6f2
+749	4632	7745521792623628	mylogger/CMakeFiles/mylogger_lib.dir/sinks/effective_sink.cpp.obj	a38e2a3e5b0199b6
+888	5255	7745521794010914	mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj	b733447b64301438
+5255	5803	7745521837680332	mylogger/libmylogger_lib.a	ace6cd4485a8d8ce
+5803	7044	7745521843168665	GoogleTest/google_test.exe	34013c99d427517

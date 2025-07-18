@@ -127,9 +127,9 @@ TEST(EffectiveMsgTest, CopyAndMove) {
     EXPECT_EQ(source.level(), 0);  // 移动后可能被重置
 }
 
-int main(int argc, char **argv) {
-    // 初始化Google Test并打印Protobuf版本
-    testing::InitGoogleTest(&argc, argv);
-
-    return RUN_ALL_TESTS();
-}
+//int main(int argc, char **argv) {
+//    // 初始化Google Test并打印Protobuf版本
+//    testing::InitGoogleTest(&argc, argv);
+//
+//    return RUN_ALL_TESTS();
+//}

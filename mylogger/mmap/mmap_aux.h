@@ -57,6 +57,8 @@ namespace logger {
         void Clear();
 
 
+        bool IsValid_() const;
+
     private:
         /// mmap结构头，包含魔数+size
         struct MMapHeader {
@@ -78,8 +80,6 @@ namespace logger {
         void Unmap_();
 
         void Sync_();
-
-        bool IsValid_() const;
 
         MMapHeader* Header_() const;
 

@@ -33,6 +33,7 @@ add_executable(google_test
         zstd_compress_test.cpp
         crypt_test.cpp
         proto_test.cpp
+        effective_sink_test.cpp
 )
 
 # 设置头文件搜索路径
