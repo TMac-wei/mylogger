@@ -31,6 +31,6 @@
 --   zstd: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/build/cmake/build_mingw/lib/libzstd.a
 --   cryptopp: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/build/cryptopp/libcryptopp.a
 --   protobuf: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/lib/libprotobuf.a
--- Configuring done (8.4s)
+-- Configuring done (10.1s)
 -- Generating done (0.2s)
 -- Build files have been written to: D:/c++_projects/mylogger/cmake-build-debug

@@ -68,7 +68,7 @@ namespace logger {
     };
 
     /// LOGGER_ACTIVE_LEVEL定义当前激活的最低日志级别
-#define LOGGER_ACTIVE_LEVEL LOGGER_LEVEL_TRACE
+    #define LOGGER_ACTIVE_LEVEL LOGGER_LEVEL_TRACE
 
     /// 源位置信息记录结构体，里面包含了日志调用的文件、行号和函数信息
     /// 需要同时处理unix和win下的路径分割符来提取文件名
