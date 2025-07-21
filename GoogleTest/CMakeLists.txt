@@ -34,6 +34,7 @@ add_executable(google_test
         crypt_test.cpp
         proto_test.cpp
         effective_sink_test.cpp
+        decode_test.cpp
 )
 
 # 设置头文件搜索路径
@@ -45,6 +46,7 @@ target_include_directories(google_test PRIVATE
         ${CRYPTOPP_INCLUDE_DIR}
         ${PROTOBUF_INCLUDE_DIR}       # Protobuf 头文件
         ${CMAKE_CURRENT_BINARY_DIR}   # 生成的 Protobuf 头文件(使用当前二进制目录)
+        ${PROJECT_SOURCE_DIR}/../decode
 )
 
 # 定义一个函数用于检查库是否存在
@@ -70,6 +72,7 @@ target_link_libraries(google_test PRIVATE
         ${ZSTD_LIBRARY}  # Zstd 静态库
         ${CRYPTOPP_LIBRARY}
         ${PROTOBUF_LIB_DIR}/libprotobuf.a  # Protobuf 静态库
+        decoder_lib
 )
 
 enable_testing()
@@ -84,3 +87,4 @@ message(STATUS "  zlib: $<TARGET_FILE:zlib>")
 message(STATUS "  zstd: ${ZSTD_LIBRARY}")
 message(STATUS "  cryptopp: ${CRYPTOPP_LIBRARY}")
 message(STATUS "  protobuf: ${PROTOBUF_LIB_DIR}/libprotobuf.a")
+message(STATUS "  decoder_lib: $<TARGET_FILE:decoder_lib>")

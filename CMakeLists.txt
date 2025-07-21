@@ -10,6 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 启用测试
 enable_testing()
 
+# --- 第三方库配置 ---
 add_subdirectory(mylogger/third_party/zlib)
 
 # 添加 Zstd 库路径和头文件
@@ -18,12 +19,13 @@ set(ZSTD_LIBRARY ${CMAKE_CURRENT_SOURCE_DIR}/mylogger/third_party/zstd/build/cma
 
 
 add_subdirectory(mylogger/third_party/cryptopp_cmake)
+add_subdirectory(mylogger/third_party/googletest)
+add_subdirectory(mylogger/third_party/fmt)
 
 
 # 添加子目录(子目录有自己的 CMakeLists.txt）
 add_subdirectory(mylogger)
-add_subdirectory(mylogger/third_party/googletest)
-add_subdirectory(mylogger/third_party/fmt)
+add_subdirectory(decode)
 add_subdirectory(GoogleTest)
 
 # 定义Protobuf路径
@@ -50,3 +52,5 @@ target_link_libraries(mylogger PRIVATE
         ${PROTOBUF_LIB_DIR}/libprotobuf.a
 )
 
+# 导出decode模块的目标
+#set_target_properties(decoder_lib PROPERTIES EXPORT_NAME decode)

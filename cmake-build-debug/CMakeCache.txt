@@ -542,6 +542,15 @@ cryptopp-cmake_IS_TOP_LEVEL:STATIC=OFF
 cryptopp-cmake_SOURCE_DIR:STATIC=D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake
 
 //Value Computed by CMake
+decoder_BINARY_DIR:STATIC=D:/c++_projects/mylogger/cmake-build-debug/decode
+
+//Value Computed by CMake
+decoder_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+decoder_SOURCE_DIR:STATIC=D:/c++_projects/mylogger/decode
+
+//Value Computed by CMake
 gmock_BINARY_DIR:STATIC=D:/c++_projects/mylogger/cmake-build-debug/mylogger/third_party/googletest/googlemock
 
 //Value Computed by CMake
@@ -762,7 +771,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

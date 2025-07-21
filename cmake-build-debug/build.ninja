@@ -1776,269 +1776,6 @@ build mylogger/third_party/cryptopp_cmake/cryptopp/install/strip: phony mylogger
 # D:/c++_projects/mylogger/CMakeLists.txt
 # =============================================================================
 
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target mylogger_lib
-
-
-#############################################
-# Order-only phony target for mylogger_lib
-
-build cmake_object_order_depends_target_mylogger_lib: phony || mylogger/effective_msg.pb.cc mylogger/effective_msg.pb.h
-
-build mylogger/CMakeFiles/mylogger_lib.dir/compress/zlib_compress.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/compress/zlib_compress.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\compress\zlib_compress.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\compress
-
-build mylogger/CMakeFiles/mylogger_lib.dir/compress/zstd_compress.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/compress/zstd_compress.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\compress\zstd_compress.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\compress
-
-build mylogger/CMakeFiles/mylogger_lib.dir/context/context.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/context/context.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\context\context.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\context
-
-build mylogger/CMakeFiles/mylogger_lib.dir/context/executor.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/context/executor.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\context\executor.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\context
-
-build mylogger/CMakeFiles/mylogger_lib.dir/context/thread_pool.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/context/thread_pool.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\context\thread_pool.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\context
-
-build mylogger/CMakeFiles/mylogger_lib.dir/crypt/AES_crypt.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/crypt/AES_crypt.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\crypt\AES_crypt.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\crypt
-
-build mylogger/CMakeFiles/mylogger_lib.dir/crypt/crypt.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/crypt/crypt.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\crypt\crypt.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\crypt
-
-build mylogger/CMakeFiles/mylogger_lib.dir/formatter/default_formatter.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/formatter/default_formatter.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\formatter\default_formatter.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\formatter
-
-build mylogger/CMakeFiles/mylogger_lib.dir/formatter/effective_formatter.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/formatter/effective_formatter.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\formatter\effective_formatter.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\formatter
-
-build mylogger/CMakeFiles/mylogger_lib.dir/log_factory.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/log_factory.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\log_factory.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-
-build mylogger/CMakeFiles/mylogger_lib.dir/log_handle.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/log_handle.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\log_handle.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-
-build mylogger/CMakeFiles/mylogger_lib.dir/log_msg.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/log_msg.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\log_msg.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-
-build mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/mmap/mmap_aux.cc || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\mmap\mmap_aux.cc.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\mmap
-
-build mylogger/CMakeFiles/mylogger_lib.dir/proto/effective_msg.pb.cc.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/proto/effective_msg.pb.cc || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\proto\effective_msg.pb.cc.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\proto
-
-build mylogger/CMakeFiles/mylogger_lib.dir/sinks/console_sink.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/sinks/console_sink.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\sinks\console_sink.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\sinks
-
-build mylogger/CMakeFiles/mylogger_lib.dir/sinks/effective_sink.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/sinks/effective_sink.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\sinks\effective_sink.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\sinks
-
-build mylogger/CMakeFiles/mylogger_lib.dir/utils/file_util.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/utils/file_util.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\utils\file_util.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\utils
-
-build mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\utils\sys_util.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\utils
-
-build mylogger/CMakeFiles/mylogger_lib.dir/effective_msg.pb.cc.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/cmake-build-debug/mylogger/effective_msg.pb.cc || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\effective_msg.pb.cc.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-
-build mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util_win.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util_win.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\utils\sys_util_win.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\utils
-
-build mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/mmap/mmap_win.cpp || cmake_object_order_depends_target_mylogger_lib
-  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\mmap\mmap_win.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\mmap
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target mylogger_lib
-
-
-#############################################
-# Link the static library mylogger\libmylogger_lib.a
-
-build mylogger/libmylogger_lib.a: CXX_STATIC_LIBRARY_LINKER__mylogger_lib_Debug mylogger/CMakeFiles/mylogger_lib.dir/compress/zlib_compress.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/compress/zstd_compress.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/context/context.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/context/executor.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/context/thread_pool.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/crypt/AES_crypt.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/crypt/crypt.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/formatter/default_formatter.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/formatter/effective_formatter.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/log_factory.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/log_handle.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/log_msg.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj mylogger/CMakeFiles/mylogger_lib.dir/proto/effective_msg.pb.cc.obj mylogger/CMakeFiles/mylogger_lib.dir/sinks/console_sink.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/sinks/effective_sink.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/file_util.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/effective_msg.pb.cc.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util_win.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = mylogger\libmylogger_lib.a
-  TARGET_PDB = mylogger_lib.a.dbg
-
-
-#############################################
-# Utility command for test
-
-build mylogger/CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
-  DESC = Running tests...
-  pool = console
-  restat = 1
-
-build mylogger/test: phony mylogger/CMakeFiles/test.util
-
-
-#############################################
-# Utility command for edit_cache
-
-build mylogger/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build mylogger/edit_cache: phony mylogger/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build mylogger/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\c++_projects\mylogger -BD:\c++_projects\mylogger\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build mylogger/rebuild_cache: phony mylogger/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build mylogger/list_install_components: phony
-
-
-#############################################
-# Utility command for install
-
-build mylogger/CMakeFiles/install.util: CUSTOM_COMMAND mylogger/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build mylogger/install: phony mylogger/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for install/local
-
-build mylogger/CMakeFiles/install/local.util: CUSTOM_COMMAND mylogger/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build mylogger/install/local: phony mylogger/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install/strip
-
-build mylogger/CMakeFiles/install/strip.util: CUSTOM_COMMAND mylogger/all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build mylogger/install/strip: phony mylogger/CMakeFiles/install/strip.util
-
-
-#############################################
-# Custom command for mylogger\effective_msg.pb.cc
-
-build mylogger/effective_msg.pb.cc mylogger/effective_msg.pb.h | ${cmake_ninja_workdir}mylogger/effective_msg.pb.cc ${cmake_ninja_workdir}mylogger/effective_msg.pb.h: CUSTOM_COMMAND D$:/c++_projects/mylogger/mylogger/proto/effective_msg.proto
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && D:\c++_projects\mylogger\mylogger\third_party\protobuf-21.8\bin\protoc.exe --cpp_out=D:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/mylogger/proto D:/c++_projects/mylogger/mylogger/proto/effective_msg.proto"
-  DESC = 运行C++协议缓冲区编译器生成effective_msg.proto代码
-  restat = 1
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# D:/c++_projects/mylogger/CMakeLists.txt
-# =============================================================================
-
 
 #############################################
 # Utility command for test
@@ -2535,88 +2272,513 @@ build mylogger/third_party/fmt/install/strip: phony mylogger/third_party/fmt/CMa
 # =============================================================================
 
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target mylogger_lib
+
+
+#############################################
+# Order-only phony target for mylogger_lib
+
+build cmake_object_order_depends_target_mylogger_lib: phony || mylogger/effective_msg.pb.cc mylogger/effective_msg.pb.h
+
+build mylogger/CMakeFiles/mylogger_lib.dir/compress/zlib_compress.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/compress/zlib_compress.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\compress\zlib_compress.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\compress
+
+build mylogger/CMakeFiles/mylogger_lib.dir/compress/zstd_compress.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/compress/zstd_compress.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\compress\zstd_compress.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\compress
+
+build mylogger/CMakeFiles/mylogger_lib.dir/context/context.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/context/context.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\context\context.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\context
+
+build mylogger/CMakeFiles/mylogger_lib.dir/context/executor.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/context/executor.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\context\executor.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\context
+
+build mylogger/CMakeFiles/mylogger_lib.dir/context/thread_pool.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/context/thread_pool.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\context\thread_pool.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\context
+
+build mylogger/CMakeFiles/mylogger_lib.dir/crypt/AES_crypt.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/crypt/AES_crypt.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\crypt\AES_crypt.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\crypt
+
+build mylogger/CMakeFiles/mylogger_lib.dir/crypt/crypt.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/crypt/crypt.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\crypt\crypt.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\crypt
+
+build mylogger/CMakeFiles/mylogger_lib.dir/formatter/default_formatter.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/formatter/default_formatter.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\formatter\default_formatter.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\formatter
+
+build mylogger/CMakeFiles/mylogger_lib.dir/formatter/effective_formatter.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/formatter/effective_formatter.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\formatter\effective_formatter.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\formatter
+
+build mylogger/CMakeFiles/mylogger_lib.dir/log_factory.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/log_factory.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\log_factory.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+
+build mylogger/CMakeFiles/mylogger_lib.dir/log_handle.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/log_handle.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\log_handle.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+
+build mylogger/CMakeFiles/mylogger_lib.dir/log_msg.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/log_msg.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\log_msg.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+
+build mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/mmap/mmap_aux.cc || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\mmap\mmap_aux.cc.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\mmap
+
+build mylogger/CMakeFiles/mylogger_lib.dir/proto/effective_msg.pb.cc.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/proto/effective_msg.pb.cc || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\proto\effective_msg.pb.cc.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\proto
+
+build mylogger/CMakeFiles/mylogger_lib.dir/sinks/console_sink.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/sinks/console_sink.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\sinks\console_sink.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\sinks
+
+build mylogger/CMakeFiles/mylogger_lib.dir/sinks/effective_sink.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/sinks/effective_sink.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\sinks\effective_sink.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\sinks
+
+build mylogger/CMakeFiles/mylogger_lib.dir/utils/file_util.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/utils/file_util.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\utils\file_util.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\utils
+
+build mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\utils\sys_util.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\utils
+
+build mylogger/CMakeFiles/mylogger_lib.dir/effective_msg.pb.cc.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/cmake-build-debug/mylogger/effective_msg.pb.cc || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\effective_msg.pb.cc.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+
+build mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util_win.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/utils/sys_util_win.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\utils\sys_util_win.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\utils
+
+build mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj: CXX_COMPILER__mylogger_lib_unscanned_Debug D$:/c++_projects/mylogger/mylogger/mmap/mmap_win.cpp || cmake_object_order_depends_target_mylogger_lib
+  DEP_FILE = mylogger\CMakeFiles\mylogger_lib.dir\mmap\mmap_win.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  OBJECT_FILE_DIR = mylogger\CMakeFiles\mylogger_lib.dir\mmap
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target mylogger_lib
+
+
+#############################################
+# Link the static library mylogger\libmylogger_lib.a
+
+build mylogger/libmylogger_lib.a: CXX_STATIC_LIBRARY_LINKER__mylogger_lib_Debug mylogger/CMakeFiles/mylogger_lib.dir/compress/zlib_compress.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/compress/zstd_compress.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/context/context.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/context/executor.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/context/thread_pool.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/crypt/AES_crypt.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/crypt/crypt.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/formatter/default_formatter.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/formatter/effective_formatter.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/log_factory.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/log_handle.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/log_msg.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_aux.cc.obj mylogger/CMakeFiles/mylogger_lib.dir/proto/effective_msg.pb.cc.obj mylogger/CMakeFiles/mylogger_lib.dir/sinks/console_sink.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/sinks/effective_sink.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/file_util.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/effective_msg.pb.cc.obj mylogger/CMakeFiles/mylogger_lib.dir/utils/sys_util_win.cpp.obj mylogger/CMakeFiles/mylogger_lib.dir/mmap/mmap_win.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = mylogger\CMakeFiles\mylogger_lib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = mylogger\libmylogger_lib.a
+  TARGET_PDB = mylogger_lib.a.dbg
+
+
+#############################################
+# Utility command for test
+
+build mylogger/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build mylogger/test: phony mylogger/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build mylogger/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build mylogger/edit_cache: phony mylogger/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build mylogger/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\c++_projects\mylogger -BD:\c++_projects\mylogger\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build mylogger/rebuild_cache: phony mylogger/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build mylogger/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build mylogger/CMakeFiles/install.util: CUSTOM_COMMAND mylogger/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build mylogger/install: phony mylogger/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build mylogger/CMakeFiles/install/local.util: CUSTOM_COMMAND mylogger/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build mylogger/install/local: phony mylogger/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build mylogger/CMakeFiles/install/strip.util: CUSTOM_COMMAND mylogger/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build mylogger/install/strip: phony mylogger/CMakeFiles/install/strip.util
+
+
+#############################################
+# Custom command for mylogger\effective_msg.pb.cc
+
+build mylogger/effective_msg.pb.cc mylogger/effective_msg.pb.h | ${cmake_ninja_workdir}mylogger/effective_msg.pb.cc ${cmake_ninja_workdir}mylogger/effective_msg.pb.h: CUSTOM_COMMAND D$:/c++_projects/mylogger/mylogger/proto/effective_msg.proto
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\mylogger && D:\c++_projects\mylogger\mylogger\third_party\protobuf-21.8\bin\protoc.exe --cpp_out=D:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/mylogger/proto D:/c++_projects/mylogger/mylogger/proto/effective_msg.proto"
+  DESC = 运行C++协议缓冲区编译器生成effective_msg.proto代码
+  restat = 1
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/c++_projects/mylogger/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target decoder_lib
+
+
+#############################################
+# Order-only phony target for decoder_lib
+
+build cmake_object_order_depends_target_decoder_lib: phony || cmake_object_order_depends_target_mylogger_lib
+
+build decode/CMakeFiles/decoder_lib.dir/decode_formatter.cpp.obj: CXX_COMPILER__decoder_lib_unscanned_Debug D$:/c++_projects/mylogger/decode/decode_formatter.cpp || cmake_object_order_depends_target_decoder_lib
+  DEP_FILE = decode\CMakeFiles\decoder_lib.dir\decode_formatter.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = decode\CMakeFiles\decoder_lib.dir
+  OBJECT_FILE_DIR = decode\CMakeFiles\decoder_lib.dir
+
+build decode/CMakeFiles/decoder_lib.dir/decode.cpp.obj: CXX_COMPILER__decoder_lib_unscanned_Debug D$:/c++_projects/mylogger/decode/decode.cpp || cmake_object_order_depends_target_decoder_lib
+  DEP_FILE = decode\CMakeFiles\decoder_lib.dir\decode.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = decode\CMakeFiles\decoder_lib.dir
+  OBJECT_FILE_DIR = decode\CMakeFiles\decoder_lib.dir
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target decoder_lib
+
+
+#############################################
+# Link the static library decode\libdecoder_lib.a
+
+build decode/libdecoder_lib.a: CXX_STATIC_LIBRARY_LINKER__decoder_lib_Debug decode/CMakeFiles/decoder_lib.dir/decode_formatter.cpp.obj decode/CMakeFiles/decoder_lib.dir/decode.cpp.obj || mylogger/libmylogger_lib.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = decode\CMakeFiles\decoder_lib.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = decode\libdecoder_lib.a
+  TARGET_PDB = decoder_lib.a.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target decoder_main
+
+
+#############################################
+# Order-only phony target for decoder_main
+
+build cmake_object_order_depends_target_decoder_main: phony || cmake_object_order_depends_target_decoder_lib cmake_object_order_depends_target_mylogger_lib
+
+build decode/CMakeFiles/decoder_main.dir/decode.cpp.obj: CXX_COMPILER__decoder_main_unscanned_Debug D$:/c++_projects/mylogger/decode/decode.cpp || cmake_object_order_depends_target_decoder_main
+  DEP_FILE = decode\CMakeFiles\decoder_main.dir\decode.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger
+  OBJECT_DIR = decode\CMakeFiles\decoder_main.dir
+  OBJECT_FILE_DIR = decode\CMakeFiles\decoder_main.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target decoder_main
+
+
+#############################################
+# Link the executable decode\decoder_main.exe
+
+build decode/decoder_main.exe: CXX_EXECUTABLE_LINKER__decoder_main_Debug decode/CMakeFiles/decoder_main.dir/decode.cpp.obj | decode/libdecoder_lib.a mylogger/libmylogger_lib.a D$:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotobuf.a D$:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotoc.a || decode/libdecoder_lib.a mylogger/libmylogger_lib.a
+  FLAGS = -g
+  LINK_LIBRARIES = decode/libdecoder_lib.a  mylogger/libmylogger_lib.a  D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotobuf.a  D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotoc.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = decode\CMakeFiles\decoder_main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = decode\decoder_main.exe
+  TARGET_IMPLIB = decode\libdecoder_main.dll.a
+  TARGET_PDB = decoder_main.exe.dbg
+
+
+#############################################
+# Utility command for test
+
+build decode/CMakeFiles/test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\decode && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\ctest.exe" --force-new-ctest-process "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build decode/test: phony decode/CMakeFiles/test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build decode/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\decode && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build decode/edit_cache: phony decode/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build decode/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\decode && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\c++_projects\mylogger -BD:\c++_projects\mylogger\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build decode/rebuild_cache: phony decode/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build decode/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build decode/CMakeFiles/install.util: CUSTOM_COMMAND decode/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\decode && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build decode/install: phony decode/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build decode/CMakeFiles/install/local.util: CUSTOM_COMMAND decode/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\decode && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build decode/install/local: phony decode/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build decode/CMakeFiles/install/strip.util: CUSTOM_COMMAND decode/all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\c++_projects\mylogger\cmake-build-debug\decode && "D:\software\JetBrains\CLion 2024.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build decode/install/strip: phony decode/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/c++_projects/mylogger/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
 # Object build statements for EXECUTABLE target google_test
 
 
 #############################################
 # Order-only phony target for google_test
 
-build cmake_object_order_depends_target_google_test: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main cmake_object_order_depends_target_mylogger_lib cmake_object_order_depends_target_zlib
+build cmake_object_order_depends_target_google_test: phony || cmake_object_order_depends_target_decoder_lib cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main cmake_object_order_depends_target_mylogger_lib cmake_object_order_depends_target_zlib
 
 build GoogleTest/CMakeFiles/google_test.dir/defer_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/defer_test.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\defer_test.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
 build GoogleTest/CMakeFiles/google_test.dir/space_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/space_test.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\space_test.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
 build GoogleTest/CMakeFiles/google_test.dir/thread_pool.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/thread_pool.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\thread_pool.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
 build GoogleTest/CMakeFiles/google_test.dir/strand_executor.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/strand_executor.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\strand_executor.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
 build GoogleTest/CMakeFiles/google_test.dir/context.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/context.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\context.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
 build GoogleTest/CMakeFiles/google_test.dir/log_handle_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/log_handle_test.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\log_handle_test.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
 build GoogleTest/CMakeFiles/google_test.dir/zlib_compress_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/zlib_compress_test.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\zlib_compress_test.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
 build GoogleTest/CMakeFiles/google_test.dir/zstd_compress_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/zstd_compress_test.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\zstd_compress_test.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
 build GoogleTest/CMakeFiles/google_test.dir/crypt_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/crypt_test.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\crypt_test.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
 build GoogleTest/CMakeFiles/google_test.dir/proto_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/proto_test.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\proto_test.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
 build GoogleTest/CMakeFiles/google_test.dir/effective_sink_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/effective_sink_test.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\effective_sink_test.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
+  OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
+  OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
+
+build GoogleTest/CMakeFiles/google_test.dir/decode_test.cpp.obj: CXX_COMPILER__google_test_unscanned_Debug D$:/c++_projects/mylogger/GoogleTest/decode_test.cpp || cmake_object_order_depends_target_google_test
+  DEP_FILE = GoogleTest\CMakeFiles\google_test.dir\decode_test.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -ID:/c++_projects/mylogger/GoogleTest/.. -ID:/c++_projects/mylogger/GoogleTest/../mylogger -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/googletest/googletest/include -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/lib -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/cryptopp -ID:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/GoogleTest -ID:/c++_projects/mylogger/GoogleTest/../decode -ID:/c++_projects/mylogger/mylogger -ID:/c++_projects/mylogger -ID:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake -ID:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include -ID:/c++_projects/mylogger/cmake-build-debug/mylogger -ID:/c++_projects/mylogger/decode -ID:/c++_projects/mylogger/decode/.. -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/include -isystem D:/c++_projects/mylogger/mylogger/third_party/googletest/googletest
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   OBJECT_FILE_DIR = GoogleTest\CMakeFiles\google_test.dir
 
@@ -2628,9 +2790,9 @@ build GoogleTest/CMakeFiles/google_test.dir/effective_sink_test.cpp.obj: CXX_COM
 #############################################
 # Link the executable GoogleTest\google_test.exe
 
-build GoogleTest/google_test.exe: CXX_EXECUTABLE_LINKER__google_test_Debug GoogleTest/CMakeFiles/google_test.dir/defer_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/space_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/thread_pool.cpp.obj GoogleTest/CMakeFiles/google_test.dir/strand_executor.cpp.obj GoogleTest/CMakeFiles/google_test.dir/context.cpp.obj GoogleTest/CMakeFiles/google_test.dir/log_handle_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/zlib_compress_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/zstd_compress_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/crypt_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/proto_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/effective_sink_test.cpp.obj | mylogger/libmylogger_lib.a lib/libgtest.a lib/libgtest_main.a mylogger/third_party/zlib/libzlib.a D$:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/build/cmake/build_mingw/lib/libzstd.a D$:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/build/cryptopp/libcryptopp.a D$:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/lib/libprotobuf.a D$:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotobuf.a D$:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotoc.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a mylogger/libmylogger_lib.a mylogger/third_party/zlib/libzlib.a
+build GoogleTest/google_test.exe: CXX_EXECUTABLE_LINKER__google_test_Debug GoogleTest/CMakeFiles/google_test.dir/defer_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/space_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/thread_pool.cpp.obj GoogleTest/CMakeFiles/google_test.dir/strand_executor.cpp.obj GoogleTest/CMakeFiles/google_test.dir/context.cpp.obj GoogleTest/CMakeFiles/google_test.dir/log_handle_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/zlib_compress_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/zstd_compress_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/crypt_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/proto_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/effective_sink_test.cpp.obj GoogleTest/CMakeFiles/google_test.dir/decode_test.cpp.obj | mylogger/libmylogger_lib.a lib/libgtest.a lib/libgtest_main.a mylogger/third_party/zlib/libzlib.a D$:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/build/cmake/build_mingw/lib/libzstd.a D$:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/build/cryptopp/libcryptopp.a D$:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/lib/libprotobuf.a decode/libdecoder_lib.a lib/libgtest.a mylogger/libmylogger_lib.a D$:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotobuf.a D$:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotoc.a || decode/libdecoder_lib.a lib/libgtest.a lib/libgtest_main.a mylogger/libmylogger_lib.a mylogger/third_party/zlib/libzlib.a
   FLAGS = -g
-  LINK_LIBRARIES = mylogger/libmylogger_lib.a  lib/libgtest.a  lib/libgtest_main.a  mylogger/third_party/zlib/libzlib.a  D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/build/cmake/build_mingw/lib/libzstd.a  D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/build/cryptopp/libcryptopp.a  D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/lib/libprotobuf.a  D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotobuf.a  D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotoc.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = mylogger/libmylogger_lib.a  lib/libgtest.a  lib/libgtest_main.a  mylogger/third_party/zlib/libzlib.a  D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/build/cmake/build_mingw/lib/libzstd.a  D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/build/cryptopp/libcryptopp.a  D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/lib/libprotobuf.a  decode/libdecoder_lib.a  lib/libgtest.a  mylogger/libmylogger_lib.a  D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotobuf.a  D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib/libprotoc.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = GoogleTest\CMakeFiles\google_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -2720,6 +2882,12 @@ build GoogleTest/install/strip: phony GoogleTest/CMakeFiles/install/strip.util
 
 build cryptopp: phony mylogger/third_party/cryptopp_cmake/cryptopp/libcryptopp.a
 
+build decoder_lib: phony decode/libdecoder_lib.a
+
+build decoder_main: phony decode/decoder_main.exe
+
+build decoder_main.exe: phony decode/decoder_main.exe
+
 build fmt: phony mylogger/third_party/fmt/libfmtd.a
 
 build gmock: phony lib/libgmock.a
@@ -2735,6 +2903,8 @@ build gtest: phony lib/libgtest.a
 build gtest_main: phony lib/libgtest_main.a
 
 build libcryptopp.a: phony mylogger/third_party/cryptopp_cmake/cryptopp/libcryptopp.a
+
+build libdecoder_lib.a: phony decode/libdecoder_lib.a
 
 build libfmtd.a: phony mylogger/third_party/fmt/libfmtd.a
 
@@ -2764,7 +2934,7 @@ build zlib: phony mylogger/third_party/zlib/libzlib.a
 #############################################
 # Folder: D:/c++_projects/mylogger/cmake-build-debug
 
-build all: phony mylogger.exe mylogger/third_party/zlib/all mylogger/third_party/cryptopp_cmake/all mylogger/all mylogger/third_party/googletest/all mylogger/third_party/fmt/all GoogleTest/all
+build all: phony mylogger.exe mylogger/third_party/zlib/all mylogger/third_party/cryptopp_cmake/all mylogger/third_party/googletest/all mylogger/third_party/fmt/all mylogger/all decode/all GoogleTest/all
 
 # =============================================================================
 
@@ -2772,6 +2942,13 @@ build all: phony mylogger.exe mylogger/third_party/zlib/all mylogger/third_party
 # Folder: D:/c++_projects/mylogger/cmake-build-debug/GoogleTest
 
 build GoogleTest/all: phony GoogleTest/google_test.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/c++_projects/mylogger/cmake-build-debug/decode
+
+build decode/all: phony decode/libdecoder_lib.a decode/decoder_main.exe
 
 # =============================================================================
 
@@ -2836,14 +3013,14 @@ build mylogger/third_party/zlib/all: phony mylogger/third_party/zlib/libzlib.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.30.5/CMakeASMCompiler.cmake CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/c++_projects/mylogger/.git/HEAD D$:/c++_projects/mylogger/.git/refs/heads/master D$:/c++_projects/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/GoogleTest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ConfigFiles.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/FasterBuild.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/GetGitRevisionDescription.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/GetGitRevisionDescription.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/cmake_minimum_required.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/config.pc.in D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/sources.cmake D$:/c++_projects/mylogger/mylogger/third_party/fmt/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/JoinPaths.cmake D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/fmt-config.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/fmt.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/Config.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/internal_utils.cmake D$:/c++_projects/mylogger/mylogger/third_party/zlib/CMakeLists.txt D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeASMInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseArguments.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindGit.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-ASM.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake arch.c mylogger/third_party/cryptopp_cmake/CMakeFiles/git-data/grabRef.cmake
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.30.5/CMakeASMCompiler.cmake CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/c++_projects/mylogger/.git/HEAD D$:/c++_projects/mylogger/.git/refs/heads/master D$:/c++_projects/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/GoogleTest/CMakeLists.txt D$:/c++_projects/mylogger/decode/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ConfigFiles.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/FasterBuild.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/GetGitRevisionDescription.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/GetGitRevisionDescription.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/cmake_minimum_required.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/config.pc.in D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/sources.cmake D$:/c++_projects/mylogger/mylogger/third_party/fmt/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/JoinPaths.cmake D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/fmt-config.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/fmt.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/Config.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/internal_utils.cmake D$:/c++_projects/mylogger/mylogger/third_party/zlib/CMakeLists.txt D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeASMInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseArguments.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindGit.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-ASM.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake arch.c mylogger/third_party/cryptopp_cmake/CMakeFiles/git-data/grabRef.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.30.5/CMakeASMCompiler.cmake CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/c++_projects/mylogger/.git/HEAD D$:/c++_projects/mylogger/.git/refs/heads/master D$:/c++_projects/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/GoogleTest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ConfigFiles.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/FasterBuild.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/GetGitRevisionDescription.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/GetGitRevisionDescription.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/cmake_minimum_required.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/config.pc.in D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/sources.cmake D$:/c++_projects/mylogger/mylogger/third_party/fmt/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/JoinPaths.cmake D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/fmt-config.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/fmt.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/Config.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/internal_utils.cmake D$:/c++_projects/mylogger/mylogger/third_party/zlib/CMakeLists.txt D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeASMInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseArguments.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindGit.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-ASM.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake arch.c mylogger/third_party/cryptopp_cmake/CMakeFiles/git-data/grabRef.cmake: phony
+build CMakeCache.txt CMakeFiles/3.30.5/CMakeASMCompiler.cmake CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeCXXCompiler.cmake CMakeFiles/3.30.5/CMakeRCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake D$:/c++_projects/mylogger/.git/HEAD D$:/c++_projects/mylogger/.git/refs/heads/master D$:/c++_projects/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/GoogleTest/CMakeLists.txt D$:/c++_projects/mylogger/decode/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ConfigFiles.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/FasterBuild.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/GetGitRevisionDescription.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/GetGitRevisionDescription.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/cmake_minimum_required.cmake D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/config.pc.in D$:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cryptopp/sources.cmake D$:/c++_projects/mylogger/mylogger/third_party/fmt/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/JoinPaths.cmake D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/fmt-config.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/fmt/support/cmake/fmt.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googlemock/cmake/gmock_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/CMakeLists.txt D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/Config.cmake.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/gtest_main.pc.in D$:/c++_projects/mylogger/mylogger/third_party/googletest/googletest/cmake/internal_utils.cmake D$:/c++_projects/mylogger/mylogger/third_party/zlib/CMakeLists.txt D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeASMInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDependentOption.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakePackageConfigHelpers.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeParseArguments.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeRCInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckIncludeFile.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/CheckLibraryExists.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-ASM.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Compiler/GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindGit.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindPackageMessage.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/FindThreads.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/GNUInstallDirs.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckFlagCommonConfig.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-ASM.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-C.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU-CXX.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-GNU.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/Windows.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake D$:/software/JetBrains/CLion$ 2024.3.3/bin/cmake/win/x64/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake arch.c mylogger/third_party/cryptopp_cmake/CMakeFiles/git-data/grabRef.cmake: phony
 
 
 #############################################

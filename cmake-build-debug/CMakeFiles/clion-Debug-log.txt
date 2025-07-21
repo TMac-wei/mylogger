@@ -14,12 +14,12 @@
 -- [cryptopp] Compiler definitions:  
 -- [cryptopp] Compiler options:   
 -- [cryptopp] Build type: Debug
+-- {fmt} version: 11.2.1
+-- Build type: Debug
 -- 使用本地Protobuf: D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8
 -- Protobuf编译器: D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/bin/protoc.exe
 -- Protobuf头文件目录: D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/include
 -- Protobuf库目录: D:/c++_projects/mylogger/mylogger/third_party/protobuf-21.8/lib
--- {fmt} version: 11.2.1
--- Build type: Debug
 -- Zstd 库已找到: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/build/cmake/build_mingw/lib/libzstd.a
 -- Crypto++ 库已找到: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/build/cryptopp/libcryptopp.a
 -- Protobuf 库已找到: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/lib/libprotobuf.a
@@ -31,6 +31,7 @@
 --   zstd: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/zstd/build/cmake/build_mingw/lib/libzstd.a
 --   cryptopp: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/build/cryptopp/libcryptopp.a
 --   protobuf: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/lib/libprotobuf.a
--- Configuring done (10.1s)
+--   decoder_lib: $<TARGET_FILE:decoder_lib>
+-- Configuring done (7.0s)
 -- Generating done (0.2s)
 -- Build files have been written to: D:/c++_projects/mylogger/cmake-build-debug

@@ -229,6 +229,7 @@ void DecodeLogFile(const std::string &input_file_path, const std::string &pri_ke
  * @return
  * 日志解码器，通过命令行接收加密日志文件路径、服务器私钥和输出文件路径，然后执行解码操作，将加密压缩的日志还原为可读文本格式。
  */
+#if 0
 int main(int argc, char *argv[]) {
 
 #if 1
@@ -278,3 +279,4 @@ int main(int argc, char *argv[]) {
     }
 
 }
+#endif

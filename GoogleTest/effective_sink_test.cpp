@@ -71,8 +71,8 @@ EXPECT_THROW(ThrowException(), std::runtime_error);
 std::cout << "[ INFO ] Exception check passed" << std::endl;
 }
 
-int main(int argc, char **argv) {
-    std::cout << "[ INFO ] Starting GoogleTest suite" << std::endl;
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
+//int main(int argc, char **argv) {
+//    std::cout << "[ INFO ] Starting GoogleTest suite" << std::endl;
+//    ::testing::InitGoogleTest(&argc, argv);
+//    return RUN_ALL_TESTS();
+//}

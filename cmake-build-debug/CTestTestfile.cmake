@@ -6,7 +6,8 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("mylogger/third_party/zlib")
 subdirs("mylogger/third_party/cryptopp_cmake")
-subdirs("mylogger")
 subdirs("mylogger/third_party/googletest")
 subdirs("mylogger/third_party/fmt")
+subdirs("mylogger")
+subdirs("decode")
 subdirs("GoogleTest")

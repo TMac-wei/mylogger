@@ -5,7 +5,8 @@
  * @version   1.0
  */
 
-#include "decode/decode_formatter.h"
+#include "decode_formatter.h"
+//#include "mylogger/proto/effective_msg.pb.h"
 
 #include <chrono>
 #include <ctime>
@@ -176,12 +177,14 @@ public:
      std::chrono::system_clock::time_point timePoint =
              std::chrono::system_clock::time_point(std::chrono::milliseconds(milliseconds));
      std::time_t time_tt = std::chrono::system_clock::to_time_t(timePoint);
-     std::tm* local_time = std::localtime(&time_tt);
+//     std::tm* local_time = std::localtime(&time_tt);
+    std::tm* utc_time = std::gmtime(&time_tt);
 //     std::tm timeinfo;
 //     localtime_s(&time_tt, timeinfo);
 
      std::ostringstream oss;
-     oss << std::put_time(local_time, "%Y-%m-%d %H:%M:%S");
+//     oss << std::put_time(local_time, "%Y-%m-%d %H:%M:%S");
+    oss << std::put_time(utc_time, "%Y-%m-%d %H:%M:%S");
      return oss.str();
  }
 
@@ -337,7 +340,15 @@ void CompilePattern(const std::string& pattern) {
                 flag_formatters_.push_back(std::move(formatter));
                 break;
             }
-            HandleFlag(*it);
+
+            /// 若下一个字符还是 % 处理为单个 %
+            if (*it == '%') {
+                auto formatter = std::make_unique<AggregateFormatter>();
+                formatter->Addchar('%');
+                flag_formatters_.push_back(std::move(formatter));
+            } else {
+                HandleFlag(*it);
+            }
         } else {
             if (!user_normal_chars) {
                 user_normal_chars = std::make_unique<AggregateFormatter>();
@@ -390,7 +401,9 @@ void CompilePattern(const std::string& pattern) {
         default:
             /// 处理 % 跟任意字符的情况，但是无法处理 % 作为最后一个字符
             auto formatter = std::make_unique<AggregateFormatter>();
-            formatter->Addchar('%');
+            if (flag != '%') {  /// 若 flag 是 %，直接添加一个 %
+                formatter->Addchar('%');
+            }
             formatter->Addchar(flag);
             flag_formatters_.push_back(std::move(formatter));
             break;

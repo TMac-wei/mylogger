@@ -6093,3 +6093,2158 @@ events:
       variable: "run_result_unused"
       cached: true
 ...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:219 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_89fd8
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_89fd8.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_89fd8.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_89fd8.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:220 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_2c7d7
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2c7d7.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_2c7d7.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2c7d7.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:219 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_c77b2
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_c77b2.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_c77b2.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_c77b2.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:220 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_84d90
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_84d90.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_84d90.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_84d90.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:221 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_dfc98
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_dfc98.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_dfc98.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_dfc98.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:222 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_dcf0b
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_dcf0b.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_dcf0b.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_dcf0b.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:223 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_322b1
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_322b1.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_322b1.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_322b1.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:224 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b29d5
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b29d5.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_b29d5.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b29d5.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:225 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_440dd
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_440dd.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_440dd.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_440dd.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:226 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_60b03
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_60b03.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_60b03.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_60b03.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:227 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b58c2
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b58c2.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_b58c2.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b58c2.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:219 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_cab2c
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_cab2c.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_cab2c.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_cab2c.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:220 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_c0511
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_c0511.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_c0511.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_c0511.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:221 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_a5659
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_a5659.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_a5659.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_a5659.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:222 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_2a49a
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2a49a.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_2a49a.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2a49a.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:223 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_0babd
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_0babd.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_0babd.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_0babd.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:224 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_ea4c2
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_ea4c2.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_ea4c2.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_ea4c2.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:225 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_9dc09
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_9dc09.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_9dc09.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_9dc09.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:226 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_3c2ab
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_3c2ab.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_3c2ab.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_3c2ab.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:227 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_9bf1a
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_9bf1a.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_9bf1a.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_9bf1a.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:219 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_39760
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_39760.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_39760.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_39760.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:220 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_baf8f
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_baf8f.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_baf8f.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_baf8f.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:221 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_ea918
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_ea918.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_ea918.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_ea918.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:222 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_af438
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_af438.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_af438.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_af438.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:223 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_00443
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_00443.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_00443.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_00443.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:224 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_2aed5
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2aed5.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_2aed5.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2aed5.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:225 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_a737d
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_a737d.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_a737d.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_a737d.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:226 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_a1452
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_a1452.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_a1452.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_a1452.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:227 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_fe8c6
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_fe8c6.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_fe8c6.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_fe8c6.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:219 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_1fd0a
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_1fd0a.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_1fd0a.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_1fd0a.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:220 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_53943
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_53943.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_53943.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_53943.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:221 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b46ee
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b46ee.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_b46ee.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b46ee.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:222 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_41f31
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_41f31.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_41f31.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_41f31.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:223 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_4fc1b
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_4fc1b.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_4fc1b.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_4fc1b.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:224 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_1328b
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_1328b.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_1328b.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_1328b.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:225 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_2ee1c
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2ee1c.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_2ee1c.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2ee1c.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:226 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_ac510
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_ac510.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_ac510.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_ac510.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:227 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_432c1
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_432c1.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_432c1.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_432c1.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:219 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_78679
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_78679.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_78679.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_78679.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:220 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_04f12
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_04f12.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_04f12.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_04f12.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:221 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_7983a
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_7983a.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_7983a.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_7983a.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:222 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_2b5a5
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2b5a5.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_2b5a5.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_2b5a5.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:223 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_d1882
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_d1882.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_d1882.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_d1882.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:224 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_6edb2
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_6edb2.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_6edb2.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_6edb2.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:225 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_56207
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_56207.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_56207.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_56207.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:226 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_96686
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_96686.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_96686.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_96686.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:227 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_c8112
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_c8112.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_c8112.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_c8112.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
+
+---
+events:
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:219 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_3fdbc
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_3fdbc.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_3fdbc.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_3fdbc.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:220 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_140ba
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_140ba.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_140ba.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_140ba.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:221 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_76a42
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_76a42.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_76a42.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_76a42.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:222 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_1a3e8
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_1a3e8.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_1a3e8.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_1a3e8.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:223 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_b6ff3
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b6ff3.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_b6ff3.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_b6ff3.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:224 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_f4199
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_f4199.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_f4199.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_f4199.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:225 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_d03d9
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_d03d9.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_d03d9.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_d03d9.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:226 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_e6c85
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_e6c85.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_e6c85.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_e6c85.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "mylogger/third_party/cryptopp_cmake/cmake/TargetArch.cmake:115 (try_run)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:191 (target_architecture)"
+      - "mylogger/third_party/cryptopp_cmake/cryptopp/CMakeLists.txt:227 (check_target_architecture)"
+    directories:
+      source: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+      binary: "D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "1"
+      CMAKE_USER_MAKE_RULES_OVERRIDE: "D:/c++_projects/mylogger/mylogger/third_party/cryptopp_cmake/cmake/ResetInitialCompilerOptions.cmake"
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/c++_projects/mylogger/cmake-build-debug/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "D:/software/JetBrains/CLion 2024.3.3/bin/ninja/win/x64/ninja.exe" -v cmTC_debb1
+        [1/2] D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_debb1.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        FAILED: CMakeFiles/cmTC_debb1.dir/arch.c.obj 
+        D:\\msys64\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always -o CMakeFiles/cmTC_debb1.dir/arch.c.obj -c D:/c++_projects/mylogger/cmake-build-debug/arch.c
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:15:6: error: #error cmake_ARCH mingw64
+           15 |     #error cmake_ARCH mingw64
+              |      ^~~~~
+        D:/c++_projects/mylogger/cmake-build-debug/arch.c:33:2: error: #error cmake_ARCH unknown
+           33 | #error cmake_ARCH unknown
+              |  ^~~~~
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+...
