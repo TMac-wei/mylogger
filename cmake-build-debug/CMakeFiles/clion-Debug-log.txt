@@ -32,6 +32,6 @@
 --   cryptopp: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/cryptopp_cmake/build/cryptopp/libcryptopp.a
 --   protobuf: D:/c++_projects/mylogger/GoogleTest/../mylogger/third_party/protobuf-21.8/lib/libprotobuf.a
 --   decoder_lib: $<TARGET_FILE:decoder_lib>
--- Configuring done (7.0s)
+-- Configuring done (8.3s)
 -- Generating done (0.2s)
 -- Build files have been written to: D:/c++_projects/mylogger/cmake-build-debug

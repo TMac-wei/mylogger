@@ -172,19 +172,19 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest_main::@438e5fec685de40d008d"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "gtest::@438e5fec685de40d008d"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "mylogger_lib::@f64cce037ef0f4943245"
+			"id" : "gtest_main::@438e5fec685de40d008d"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "decoder_lib::@e9d7677935356195074a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "mylogger_lib::@f64cce037ef0f4943245"
 		}
 	],
 	"id" : "google_test::@b7da687d4e8a37977221",

@@ -83,7 +83,7 @@ namespace logger {
 
     /**
        * @brief 新的映射
-       * @note
+       * @note 将data拷贝到Data（）返回的真实地址处
        */
     void MMapAux::Push(const void *data, size_t size) {
         if (IsValid_()) {

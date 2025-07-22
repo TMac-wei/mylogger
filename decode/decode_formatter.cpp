@@ -6,7 +6,6 @@
  */
 
 #include "decode_formatter.h"
-//#include "mylogger/proto/effective_msg.pb.h"
 
 #include <chrono>
 #include <ctime>
