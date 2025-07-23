@@ -8,6 +8,7 @@
 #include "mmap/mmap_aux.h"
 
 #include <windows.h>
+#include <iostream>
 
 namespace logger {
     /// 自定义一个删除器
@@ -55,16 +56,27 @@ namespace logger {
                 nullptr,             /// 安全属性
                 PAGE_READWRITE,              ///  映射页的保护模式
                 0,                  ///  映射文件的最高位
-                capacity_,           ///  映射文件的最低位
+                capacity,           ///  映射文件的最低位
                 nullptr                          /// 映射对象的名称，用于跨进程共享
         ));
         if (!file_mapping_.get()) {
+            DWORD err = GetLastError();
+            std::cout << "CreateFileMapping 失败！错误码: " << err
+                      << "，请求容量: " << capacity << " 字节" << std::endl;
             return false;
         }
 
         /// 调用 MapViewOfFile 将映射对象映射到进程的具体内存地址，后续通过内存指针读写文件内容
         handle_ = MapViewOfFile(file_mapping_.get(), FILE_MAP_ALL_ACCESS, 0, 0, capacity);
-        return handle_ != nullptr;
+
+        if (!handle_) {
+            DWORD err = GetLastError();
+            std::cout << "MapViewOfFile 失败！错误码: " << err
+                      << "，映射大小: " << capacity << " 字节" << std::endl;
+            return false;
+        }
+
+        return true;
     }
 
     /**

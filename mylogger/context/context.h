@@ -84,9 +84,4 @@ inline void POST_REPEATED_TASK(
                                repeat_num);
 }
 
-///// 阻塞等待某个runner执行器执行完毕所有任务
-//#define WAIT_TASK_IDLE(runner_tag) EXECUTOR->PostTaskAndGetResult(runner_tag, [](){}) -> wait()
-//
-///// 执行周期性任务
-//#define POST_REPEATED_TASK(runner_tag, task, delta, repeat_num) \
-//    EXECUTOR->PostRepeatedTask(runner_tag, task, delta, repeat_num)
+

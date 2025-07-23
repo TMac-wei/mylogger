@@ -48,7 +48,7 @@ namespace logger {
         struct Conf {
             std::filesystem::path file_dir_;            /// 文件目录
             std::string file_prefix_;                   /// 文件名前缀，最后需要将文件命名为：{file_prefix_}_{datetime}.log
-            std::string pub_key_;                       /// 公钥
+            std::string pub_key_;                       /// 服务器公钥
             std::chrono::minutes interval{5};       /// 文件淘汰间隔，固定间隔
             megabytes single_file_size_{4};          /// 单个文件大小
             megabytes total_files_sizes_{100};       /// 所有文件大小
@@ -105,7 +105,7 @@ namespace logger {
         std::string compressed_buf_;                            /// 压缩输出缓冲区
         std::string encrypt_buf_;                               /// 加密输出缓冲区
 
-        std::atomic<bool> is_slave_free_{true};             /// 从缓冲区是否空闲，用于缓冲区切换
+        std::atomic<bool> is_slave_free_{true};             /// 从缓冲区是否可用，用于缓冲区切换
     };
 
 }

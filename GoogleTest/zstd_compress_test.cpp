@@ -11,8 +11,72 @@
 #include <iostream>
 #include <cstring>
 #include <vector>
+#include <fstream>
+#include <random>
+#include <filesystem>
+#include <chrono>
 
 using namespace logger::compress;
+namespace fs = std::filesystem;
+
+
+// 生成临时大文件的工具函数（测试完成后自动删除）
+std::string create_temp_large_file(size_t size, bool random_data = true) {
+    // 创建临时文件路径
+    static std::random_device rd;
+    std::string filename = "temp_test_" + std::to_string(rd()) + ".dat";
+    fs::path temp_path = fs::temp_directory_path() / filename;
+
+    std::ofstream file(temp_path, std::ios::binary);
+    if (!file.is_open()) {
+        throw std::runtime_error("无法创建临时文件: " + temp_path.string());
+    }
+
+    // 生成数据（随机数据/重复数据）
+    const size_t block_size = 1024 * 1024; // 1MB块
+    std::vector<char> block(block_size);
+
+    if (random_data) {
+        // 随机数据（压缩率低）
+        std::mt19937 gen(rd());
+        std::uniform_int_distribution<uint8_t> dist(0, 255);
+        for (char& c : block) {
+            c = static_cast<char>(dist(gen));
+        }
+    } else {
+        // 重复数据（压缩率高，填充固定字符）
+        std::memset(block.data(), 'A', block_size);
+    }
+
+    // 写入文件
+    size_t remaining = size;
+    while (remaining > 0) {
+        size_t write_size = std::min(remaining, block_size);
+        file.write(block.data(), write_size);
+        remaining -= write_size;
+    }
+
+    return temp_path.string();
+}
+
+// 读取文件内容到内存
+std::vector<char> read_file(const std::string& path) {
+    std::ifstream file(path, std::ios::binary | std::ios::ate);
+    if (!file.is_open()) {
+        throw std::runtime_error("无法打开文件: " + path);
+    }
+
+    std::streamsize size = file.tellg();
+    file.seekg(0, std::ios::beg);
+
+    std::vector<char> buffer(size);
+    if (!file.read(buffer.data(), size)) {
+        throw std::runtime_error("文件读取失败: " + path);
+    }
+
+    return buffer;
+}
+
 
 // 测试基本压缩和解压缩功能
 TEST(ZstdCompressTest, BasicCompressDecompress) {
@@ -187,6 +251,81 @@ TEST(ZstdCompressTest, CompressedBound) {
     }
 
     std::cout << "===== 结束测试 ZstdCompressTest.CompressedBound =====" << std::endl;
+}
+
+
+// 新增：大文件压缩率测试（针对不同类型数据）
+TEST(ZstdCompressTest, LargeFileCompressionRatio) {
+    std::cout << "\n===== 开始测试 ZstdCompressTest.LargeFileCompressionRatio =====" << std::endl;
+
+    ZstdCompress compressor;
+    // 测试不同大小的文件（10MB、50MB）
+    const std::vector<size_t> file_sizes = {10 * 1024 * 1024, 50 * 1024 * 1024}; // 10MB, 50MB
+
+    for (size_t file_size : file_sizes) {
+        // 测试两种数据类型：随机数据（难压缩）、重复数据（易压缩）
+        for (bool is_random : {true, false}) {
+            try {
+                std::cout << "\n测试" << (is_random ? "随机" : "重复") << "数据文件，大小: "
+                          << file_size / (1024 * 1024) << "MB" << std::endl;
+
+                // 创建临时大文件
+                std::string file_path = create_temp_large_file(file_size, is_random);
+                std::cout << "临时文件路径: " << file_path << std::endl;
+
+                // 读取文件内容
+                std::vector<char> file_data = read_file(file_path);
+                ASSERT_EQ(file_data.size(), file_size) << "文件读取大小不一致";
+
+                // 压缩并计时
+                auto start = std::chrono::high_resolution_clock::now();
+                size_t max_compressed_size = compressor.CompressedBound(file_size);
+                std::vector<char> compressed_buf(max_compressed_size);
+                size_t compressed_size = compressor.Compress(
+                        file_data.data(), file_size,
+                        compressed_buf.data(), max_compressed_size
+                );
+                auto end = std::chrono::high_resolution_clock::now();
+                double compress_time = std::chrono::duration<double, std::milli>(end - start).count();
+
+                // 验证压缩结果
+                ASSERT_GT(compressed_size, 0) << "大文件压缩失败";
+                ASSERT_LE(compressed_size, max_compressed_size) << "压缩后超出预估大小";
+
+                // 计算压缩率和速度
+                double compression_ratio = static_cast<double>(compressed_size) / file_size * 100;
+                double compression_bi = static_cast<double>(file_size) / compressed_size;
+                double compress_speed = (file_size / (1024 * 1024)) / (compress_time / 1000); // MB/s
+
+                std::cout << "压缩性能指标:" << std::endl;
+                std::cout << "  原始大小: " << file_size << " 字节" << std::endl;
+                std::cout << "  压缩后大小: " << compressed_size << " 字节" << std::endl;
+                std::cout << "  压缩率: " << compression_ratio << "%" << std::endl;
+                std::cout << "  压缩比: " << compression_bi << "%" << std::endl;
+                std::cout << "  压缩时间: " << compress_time << " ms" << std::endl;
+                std::cout << "  压缩速度: " << compress_speed << " MB/s" << std::endl;
+
+                // 解压缩并验证
+                start = std::chrono::high_resolution_clock::now();
+                std::string decompressed = compressor.Decompress(compressed_buf.data(), compressed_size);
+                end = std::chrono::high_resolution_clock::now();
+                double decompress_time = std::chrono::duration<double, std::milli>(end - start).count();
+                double decompress_speed = (file_size / (1024 * 1024)) / (decompress_time / 1000); // MB/s
+
+                std::cout << "  解压缩时间: " << decompress_time << " ms" << std::endl;
+                std::cout << "  解压缩速度: " << decompress_speed << " MB/s" << std::endl;
+                ASSERT_EQ(decompressed.size(), file_size) << "解压缩后大小不一致";
+                ASSERT_EQ(memcmp(decompressed.data(), file_data.data(), file_size), 0) << "解压缩内容不一致";
+
+                // 删除临时文件
+                fs::remove(file_path);
+            } catch (const std::exception& e) {
+                FAIL() << "测试失败: " << e.what();
+            }
+        }
+    }
+
+    std::cout << "\n===== 结束测试 ZstdCompressTest.LargeFileCompressionRatio =====" << std::endl;
 }
 
 //int main(int argc, char **argv) {

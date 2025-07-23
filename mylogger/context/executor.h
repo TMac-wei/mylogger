@@ -219,16 +219,6 @@ namespace logger {
             std::unique_ptr<ExecutorContext> executor_context_;     ///
             std::unique_ptr<ExecutorTimer> executor_timer_;         ///
 
-
-
-
-
-
-
-
-
-
-
         };
 
     }

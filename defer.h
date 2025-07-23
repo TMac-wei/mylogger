@@ -43,5 +43,3 @@ namespace logger {
 
 #undef LOG_DEFER
 #define LOG_DEFER _MAKE_DEFER_(__LINE__)
-
-#endif

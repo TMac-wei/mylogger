@@ -1,7 +1,7 @@
 syntax = "proto3";
 option optimize_for = LITE_RUNTIME;
 
-// 消息定义
+/// 消息定义
 message EffectiveMsg {
   int32 level = 1;          /// 日志级别（如 DEBUG=1、INFO=2、WARN=3、ERROR=4 等，用整数表示便于高效比较）
   int64 timestamp = 2;      /// 日志产生的时间戳

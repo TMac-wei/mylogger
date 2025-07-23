@@ -103,6 +103,7 @@ namespace logger {
          * @param input_size
          * @return 压缩后的最大可能大小
          *          准确公式为：input_size + (input_size / 1000) + 12;
+         *          我这里修改为直接调用zlib库中的compressBound
          */
         size_t ZlibCompress::CompressedBound(size_t input_size) {
             /// 这里直接调用 zlib自带的compressBound函数
@@ -117,7 +118,7 @@ namespace logger {
          * @return  数据解压缩之后的字符串形式的结果
          *      实现步骤：
          *       1、 参数校验：输入指针为空时，返回空字符串
-         *       2、 流重置判断：若数据是压缩格式（IsCompressed->true)，调用 ResetUncompressStream_ 重置解压缩流
+         *       2、 调用 ResetUncompressStream_ 重置解压缩流
          *       3、 解压缩检查： 如果uncompress_stream_未初始化，返回空字符串
          *       4、 设置输入参数：next_in（压缩数据指针）、avail_in（压缩数据大小）
          *       5、 循环解压缩

@@ -55,6 +55,9 @@ namespace logger {
                 {
                     /// 获取任务
                     std::lock_guard<std::mutex> lock(task_mutex_);
+                    if (is_shutdown_.load() || !is_available_.load()) {
+                        throw std::runtime_error("Thread pool not available");
+                    }
                     tasks_.emplace([task]() {
                         /// 将需要执行的任务添加到任务队列
                         task();

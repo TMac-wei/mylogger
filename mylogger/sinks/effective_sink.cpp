@@ -280,7 +280,7 @@ namespace logger {
         };
 
         if (log_file_path_.empty()) {
-            /// 没有这个文件路径，直接盛恒
+            /// 没有这个文件路径，直接生成
             log_file_path_ = GetDateTimePathPrefix().string() + ".log";
         } else {
             /// 已经有了，需要文件滚动；首先判断文件大小是否超过限制
@@ -306,7 +306,7 @@ namespace logger {
                     /// 生成新的带索引的路径
                     log_file_path_ = date_time_path.string() + "_" + std::to_string(index) + ".log";
                 } else {
-                    /// 如果减缩的路径不存在，直接使用这个路径
+                    /// 如果检索的路径不存在，直接使用这个路径
                     log_file_path_ = file_path;
                 }
             }

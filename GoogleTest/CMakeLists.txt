@@ -35,6 +35,8 @@ add_executable(google_test
         proto_test.cpp
         effective_sink_test.cpp
         decode_test.cpp
+        mmap_test.cpp
+        log_throughtput_test.cpp
 )
 
 # 设置头文件搜索路径

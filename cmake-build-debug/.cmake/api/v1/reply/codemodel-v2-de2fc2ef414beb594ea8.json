@@ -1,0 +1,426 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4,
+						7,
+						8,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "mylogger/third_party/zlib",
+					"jsonFile" : "directory-mylogger.third_party.zlib-Debug-a9d27f9136cb25fb4810.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mylogger/third_party/zlib",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "mylogger/third_party/cryptopp_cmake",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mylogger.third_party.cryptopp_cmake-Debug-6bae135f815a42ce4ea8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "mylogger/third_party/cryptopp_cmake"
+				},
+				{
+					"build" : "mylogger/third_party/cryptopp_cmake/cryptopp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mylogger.third_party.cryptopp_cmake.cryptopp-Debug-e874cca880019536aa9c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "mylogger/third_party/cryptopp_cmake/cryptopp",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "mylogger/third_party/googletest",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mylogger.third_party.googletest-Debug-b350b99236d874e255a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "mylogger/third_party/googletest"
+				},
+				{
+					"build" : "mylogger/third_party/googletest/googlemock",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mylogger.third_party.googletest.googlemock-Debug-5d1b9df36cfced8d5698.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "mylogger/third_party/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "mylogger/third_party/googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mylogger.third_party.googletest.googletest-Debug-b4828104998f15b5886f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "mylogger/third_party/googletest/googletest",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "mylogger/third_party/fmt",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mylogger.third_party.fmt-Debug-30fb7aacdc835584310e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "mylogger/third_party/fmt",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "mylogger",
+					"jsonFile" : "directory-mylogger-Debug-6555e796bf28d03448a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "mylogger",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "decode",
+					"jsonFile" : "directory-decode-Debug-71c9e50e7272e48267ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "decode",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "GoogleTest",
+					"jsonFile" : "directory-GoogleTest-Debug-515f69215821a57f50a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "GoogleTest",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						8
+					],
+					"name" : "myLogger",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "zlib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "cryptopp-cmake",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gmock",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "decoder",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "GoogleTest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "cryptopp::@c03e0e9206d2f1ddb642",
+					"jsonFile" : "target-cryptopp-Debug-e55ed411a6eb9d9197ea.json",
+					"name" : "cryptopp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "decoder_lib::@e9d7677935356195074a",
+					"jsonFile" : "target-decoder_lib-Debug-ba7010cc6e9ad95e054e.json",
+					"name" : "decoder_lib",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "decoder_main::@e9d7677935356195074a",
+					"jsonFile" : "target-decoder_main-Debug-c2db295be9ed90f3884e.json",
+					"name" : "decoder_main",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "fmt::@be0d296e79e9d6e8bd57",
+					"jsonFile" : "target-fmt-Debug-b4f73aa708f24ffc28d3.json",
+					"name" : "fmt",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock::@0a6dc399ff1fb6d83635",
+					"jsonFile" : "target-gmock-Debug-746693989d9c241275d0.json",
+					"name" : "gmock",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock_main::@0a6dc399ff1fb6d83635",
+					"jsonFile" : "target-gmock_main-Debug-290c73d9f6d029a37c8f.json",
+					"name" : "gmock_main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "google_test::@b7da687d4e8a37977221",
+					"jsonFile" : "target-google_test-Debug-932da2c3e6eabf7d19b9.json",
+					"name" : "google_test",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@438e5fec685de40d008d",
+					"jsonFile" : "target-gtest-Debug-f51c52a35e549f3d3356.json",
+					"name" : "gtest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@438e5fec685de40d008d",
+					"jsonFile" : "target-gtest_main-Debug-f4ab95756999f608f9ad.json",
+					"name" : "gtest_main",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mylogger::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mylogger-Debug-9c0b48f2982f04391ccd.json",
+					"name" : "mylogger",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "mylogger_lib::@f64cce037ef0f4943245",
+					"jsonFile" : "target-mylogger_lib-Debug-3babfc3cc7a6149e936c.json",
+					"name" : "mylogger_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zlib::@0dda5c24fcd90627c3f7",
+					"jsonFile" : "target-zlib-Debug-9f0d941e523807543cd8.json",
+					"name" : "zlib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/c++_projects/mylogger/cmake-build-debug",
+		"source" : "D:/c++_projects/mylogger"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

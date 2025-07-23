@@ -207,9 +207,9 @@ namespace logger {
         /***
        * @brief 周期任务提交
        * @param Task task, const std::chrono::microseconds& delta， uint64_t repeat_num
-       * @return 无
-        *        封装一个内部任务任务结构体，计算执行所需要的时间
-        *        压入待执行任务队列中
+       * @return 周期任务的ID
+        *        为这个周期任务创建唯一ID，用于调度器执行，并且将这个ID添加到周期任务执行映射中去
+        *
        * */
         RepeatedTaskId Executor::ExecutorTimer::PostRepeatedTask(logger::ctx::Task task,
                                                                  const std::chrono::microseconds &delta,
@@ -248,7 +248,7 @@ namespace logger {
         * @brief 获取周期任务的ID
         * @param 无
         * @return 返回周期任务的ID
-         *      返回周期任务的ID，然后将其+1，确保每个周期任务的ID不相同
+        *      返回周期任务的ID，然后将其+1，确保每个周期任务的ID不相同
         * */
         RepeatedTaskId Executor::ExecutorTimer::GetRepeatedTaskId() {
             return repeated_task_id_++;

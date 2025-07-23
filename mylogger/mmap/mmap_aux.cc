@@ -90,6 +90,8 @@ namespace logger {
             size_t new_size = Size() + size;
             EnsureCapacity_(new_size);
             memcpy(Data() + Size(), data, size);
+            /// 更新头部的 mmap_size_ 为新大小
+            Header_()->mmap_size_ = new_size;
         }
     }
 
